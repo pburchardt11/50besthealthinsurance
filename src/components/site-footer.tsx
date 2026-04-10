@@ -20,6 +20,7 @@ export function SiteFooter() {
               <li><Link href="/de" className="hover:text-foreground transition-colors">Germany</Link></li>
               <li><Link href="/sg" className="hover:text-foreground transition-colors">Singapore</Link></li>
               <li><Link href="/ae" className="hover:text-foreground transition-colors">UAE</Link></li>
+              <li><Link href="/rankings" className="hover:text-foreground transition-colors font-medium">View All Rankings &#8594;</Link></li>
             </ul>
           </div>
           <div>
@@ -30,12 +31,15 @@ export function SiteFooter() {
               <li><Link href="/fr" className="hover:text-foreground transition-colors">France</Link></li>
               <li><Link href="/jp" className="hover:text-foreground transition-colors">Japan</Link></li>
               <li><Link href="/in" className="hover:text-foreground transition-colors">India</Link></li>
+              <li><Link href="/#countries" className="hover:text-foreground transition-colors font-medium">Browse All Countries &#8594;</Link></li>
             </ul>
           </div>
           <div>
-            <h3 className="text-sm font-semibold">Resources</h3>
+            <h3 className="text-sm font-semibold">Company</h3>
             <ul className="mt-2 space-y-1.5 text-sm text-muted-foreground">
               <li><Link href="/about" className="hover:text-foreground transition-colors">About Us</Link></li>
+              <li><Link href="/contact" className="hover:text-foreground transition-colors">Contact</Link></li>
+              <li><Link href="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link></li>
               <li><Link href="/about#disclaimer" className="hover:text-foreground transition-colors">Disclaimer</Link></li>
               <li><Link href="/about#privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link></li>
             </ul>

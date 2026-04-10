@@ -28,12 +28,12 @@ export default function HomePage() {
               reviews, and find the perfect coverage for you and your family.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <a href="#countries" className={cn(buttonVariants({ size: "lg" }))}>
-                Browse Countries &#8595;
-              </a>
-              <Link href="/us" className={cn(buttonVariants({ size: "lg", variant: "outline" }))}>
-                View US Plans
+              <Link href="/rankings" className={cn(buttonVariants({ size: "lg" }))}>
+                Global Top 50 Rankings
               </Link>
+              <a href="#countries" className={cn(buttonVariants({ size: "lg", variant: "outline" }))}>
+                Browse by Country &#8595;
+              </a>
             </div>
           </div>
         </div>

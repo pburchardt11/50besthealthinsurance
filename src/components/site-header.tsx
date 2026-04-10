@@ -12,8 +12,11 @@ export function SiteHeader() {
           <Link href="/" className="text-muted-foreground transition-colors hover:text-foreground">
             Home
           </Link>
+          <Link href="/rankings" className="text-muted-foreground transition-colors hover:text-foreground">
+            Global Rankings
+          </Link>
           <Link href="/#countries" className="text-muted-foreground transition-colors hover:text-foreground">
-            Countries
+            By Country
           </Link>
           <Link href="/about" className="text-muted-foreground transition-colors hover:text-foreground">
             About

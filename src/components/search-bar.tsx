@@ -1,66 +1,44 @@
 "use client";
 
-import { useState, useRef, useEffect, useMemo } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
-import { getCountries, insurancePlans } from "@/lib/data";
 
 interface SearchResult {
-  type: "country" | "plan";
+  type: string;
   label: string;
   sublabel: string;
   href: string;
-  flag?: string;
 }
 
 export function SearchBar() {
   const [query, setQuery] = useState("");
+  const [results, setResults] = useState<SearchResult[]>([]);
   const [open, setOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
   const router = useRouter();
   const wrapperRef = useRef<HTMLDivElement>(null);
-
-  const countries = useMemo(() => getCountries(), []);
-
-  const results = useMemo(() => {
-    if (query.length < 2) return [];
-    const q = query.toLowerCase();
-    const matches: SearchResult[] = [];
-
-    for (const c of countries) {
-      if (c.name.toLowerCase().includes(q) || c.code.includes(q)) {
-        matches.push({
-          type: "country",
-          label: `${c.flag} ${c.name}`,
-          sublabel: `${c.planCount} plans \u00B7 ${c.region}`,
-          href: `/${c.code}`,
-          flag: c.flag,
-        });
-      }
-      if (matches.length >= 5) break;
-    }
-
-    for (const p of insurancePlans) {
-      if (
-        p.name.toLowerCase().includes(q) ||
-        p.provider.toLowerCase().includes(q)
-      ) {
-        matches.push({
-          type: "plan",
-          label: p.name,
-          sublabel: `${p.provider} \u00B7 ${p.country}`,
-          href: `/${p.countryCode}/${p.id}`,
-        });
-      }
-      if (matches.length >= 10) break;
-    }
-
-    return matches;
-  }, [query, countries]);
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   useEffect(() => {
-    setSelectedIndex(0);
-  }, [results]);
+    if (query.length < 2) {
+      setResults([]);
+      return;
+    }
+    clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+        const data = await res.json();
+        setResults(data);
+        setSelectedIndex(0);
+        setOpen(true);
+      } catch {
+        setResults([]);
+      }
+    }, 200);
+    return () => clearTimeout(debounceRef.current);
+  }, [query]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -100,11 +78,8 @@ export function SearchBar() {
         placeholder="Search country or insurer..."
         className="h-8 w-48 lg:w-64 text-sm"
         value={query}
-        onChange={(e) => {
-          setQuery(e.target.value);
-          setOpen(true);
-        }}
-        onFocus={() => query.length >= 2 && setOpen(true)}
+        onChange={(e) => setQuery(e.target.value)}
+        onFocus={() => results.length > 0 && setOpen(true)}
         onKeyDown={handleKeyDown}
       />
 

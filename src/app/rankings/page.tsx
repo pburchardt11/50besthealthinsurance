@@ -14,10 +14,12 @@ export const metadata: Metadata = {
     "The definitive global ranking of the best health insurance plans in the world. Compared across coverage, value, innovation, and customer satisfaction.",
 };
 
-const globalRanked = [...insurancePlans].sort((a, b) => {
-  if (b.rating !== a.rating) return b.rating - a.rating;
-  return b.reviewCount - a.reviewCount;
-});
+const globalRanked = [...insurancePlans]
+  .sort((a, b) => {
+    if (b.rating !== a.rating) return b.rating - a.rating;
+    return b.reviewCount - a.reviewCount;
+  })
+  .slice(0, 50);
 
 const categoryAwards = [
   {
@@ -77,7 +79,7 @@ export default function GlobalRankingsPage() {
               The 50 Best Health Insurance Plans <span className="text-amber-600">in the World</span>
             </h1>
             <p className="mt-4 text-lg text-muted-foreground">
-              Our definitive global ranking — {globalRanked.length} plans from {new Set(globalRanked.map((p) => p.countryCode)).size} countries,
+              The top 50 health insurance plans in the world, selected from {new Set(globalRanked.map((p) => p.countryCode)).size}+ countries and
               ranked by coverage quality, customer satisfaction, value, and innovation.
             </p>
           </div>
@@ -130,7 +132,7 @@ export default function GlobalRankingsPage() {
         <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold mb-2">Full Global Ranking</h2>
           <p className="text-muted-foreground mb-8">
-            All {globalRanked.length} plans ranked by rating and review volume.
+            The top 50 plans worldwide, ranked by rating and review volume.
           </p>
 
           <div className="space-y-3">

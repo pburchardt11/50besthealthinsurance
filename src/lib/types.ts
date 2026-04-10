@@ -44,11 +44,14 @@ export interface Country {
 
 export const REGIONS = [
   "North America",
-  "Europe",
-  "Asia Pacific",
-  "Middle East",
+  "Central America",
+  "Caribbean",
   "Latin America",
+  "Europe",
+  "Middle East",
   "Africa",
+  "Asia Pacific",
+  "Oceania",
 ] as const;
 
 export type Region = (typeof REGIONS)[number];

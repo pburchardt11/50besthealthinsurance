@@ -7,7 +7,7 @@ export const allCountries: Country[] = [
     name: "United States",
     flag: "🇺🇸",
     region: "North America",
-    planCount: 50,
+    planCount: 59,
     description:
       "The US health insurance market is the largest in the world, with a mix of employer-sponsored, individual, and government programs.",
     healthcareSystem:
@@ -128,7 +128,7 @@ export const allCountries: Country[] = [
     name: "India",
     flag: "🇮🇳",
     region: "Asia Pacific",
-    planCount: 50,
+    planCount: 60,
     description:
       "India's health insurance market is rapidly growing, with both government schemes and private insurers serving a large population.",
     healthcareSystem:
@@ -262,7 +262,7 @@ export const allCountries: Country[] = [
     name: "Ireland",
     flag: "🇮🇪",
     region: "Europe",
-    planCount: 50,
+    planCount: 51,
     description:
       "Ireland has a mixed public-private system; private health insurance is common among workers due to public hospital waiting lists.",
     healthcareSystem:

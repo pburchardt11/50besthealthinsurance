@@ -14,17 +14,8 @@ import {
   getCountries,
 } from "@/lib/data";
 
-export async function generateStaticParams() {
-  const countries = getCountries();
-  const params: { country: string; plan: string }[] = [];
-  for (const c of countries) {
-    const plans = getPlansByCountry(c.code);
-    for (const p of plans) {
-      params.push({ country: c.code, plan: p.id });
-    }
-  }
-  return params;
-}
+// Plan pages are rendered on-demand and cached (too many to pre-generate)
+export const dynamicParams = true;
 
 export async function generateMetadata({
   params,

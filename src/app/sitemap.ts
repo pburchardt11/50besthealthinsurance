@@ -25,6 +25,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.3,
     },
+    {
+      url: `${BASE_URL}/contact`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: `${BASE_URL}/terms`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.2,
+    },
   ];
 
   const countryPages: MetadataRoute.Sitemap = countries.map((country) => ({
@@ -34,14 +46,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const planPages: MetadataRoute.Sitemap = countries.flatMap((country) =>
-    getPlansByCountry(country.code).map((plan) => ({
-      url: `${BASE_URL}/${country.code}/${plan.id}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.6,
-    }))
+  // Include top 5 plans per country in sitemap (most important for SEO)
+  const topPlanPages: MetadataRoute.Sitemap = countries.flatMap((country) =>
+    getPlansByCountry(country.code)
+      .sort((a, b) => b.rating - a.rating || b.reviewCount - a.reviewCount)
+      .slice(0, 5)
+      .map((plan) => ({
+        url: `${BASE_URL}/${country.code}/${plan.id}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      }))
   );
 
-  return [...staticPages, ...countryPages, ...planPages];
+  return [...staticPages, ...countryPages, ...topPlanPages];
 }

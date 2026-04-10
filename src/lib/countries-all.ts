@@ -1249,7 +1249,7 @@ export const allCountries: Country[] = [
     name: "Mexico",
     flag: "🇲🇽",
     region: "Latin America",
-    planCount: 50,
+    planCount: 51,
     description:
       "Mexico's IMSS and ISSSTE provide public coverage; private insurance is popular for faster access and better facilities.",
     healthcareSystem:

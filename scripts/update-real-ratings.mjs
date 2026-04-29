@@ -275,7 +275,7 @@ const REAL_DATA = {
   "au-hcf": {
     rating: 4.7,
     reviewCount: 5432,
-    badges: ["Canstar 10 Consecutive Years", "WeMoney Insurer of Year 2025", "88.5c per $1 Returned"],
+    badges: ["Canstar 10 Consecutive Years", "WeMoney Insurer of Year 2025", "88.5c per Dollar Returned"],
     editorialExcerpt: "Canstar Outstanding Value award winner for 10 consecutive years (2016-2025). WeMoney Health Insurer of the Year 2025. Returns 88.5 cents per premium dollar vs industry average of 84.4 cents. Australia's largest not-for-profit fund.",
     editorialSource: "Canstar 2025 / WeMoney Insurance Awards 2025 / HCF Press Release",
   },

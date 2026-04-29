@@ -14,7 +14,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "$450 - $850",
     deductible: "$1,500 - $6,000",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Most Popular", "Best Network"],
+    badges: ["NCQA 5-Star (MA PPO)","Largest US Network","NerdWallet Top Pick"],
     highlights: [
       "Largest provider network in the US",
       "Available in all 50 states",
@@ -47,8 +47,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Consistently ranked as a top choice for comprehensive coverage with the broadest provider networks available.",
-    editorialSource: "US News Health Insurance Rankings 2025",
+      "BCBS Massachusetts earned NCQA 5 stars (2024 & 2025) — one of only 8 commercial plans nationally. J.D. Power #1 in Texas Medicare 3 consecutive years. CMS 4.5-star Medicare plans. Available in all 50 states.",
+    editorialSource: "NCQA 2025 / J.D. Power 2025 / CMS Star Ratings / NerdWallet",
   },
   {
     id: "us-kaiser",
@@ -57,12 +57,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United States",
     countryCode: "us",
     logo: "/logos/kaiser.svg",
-    rating: 4.6,
+    rating: 4.8,
     reviewCount: 9821,
     monthlyPremium: "$350 - $750",
     deductible: "$0 - $3,000",
     coverageType: "comprehensive",
-    badges: ["Best Value", "Top Rated", "Best Preventive Care"],
+    badges: ["NCQA 5-Star Plan","Forbes #1 Value All Industries","J.D. Power #1 CA 18 Years"],
     highlights: [
       "Integrated care model",
       "Low out-of-pocket costs",
@@ -95,8 +95,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Kaiser Permanente leads in patient satisfaction and preventive care quality, consistently earning top marks from NCQA.",
-    editorialSource: "NCQA Health Plan Ratings 2025",
+      "NCQA 5-star plans in Northern and Southern California (2025). Forbes #1 Brand for Value across all industries. J.D. Power #1 in California for 18 consecutive years. AM Best A+ (Superior).",
+    editorialSource: "NCQA 2025 / Forbes 2025 / J.D. Power 2025 / AM Best",
   },
   {
     id: "us-unitedhealthcare",
@@ -105,12 +105,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United States",
     countryCode: "us",
     logo: "/logos/uhc.svg",
-    rating: 4.2,
+    rating: 3.8,
     reviewCount: 11234,
     monthlyPremium: "$400 - $900",
     deductible: "$2,000 - $7,000",
     coverageType: "comprehensive",
-    badges: ["Largest Insurer", "Best Digital Tools"],
+    badges: ["Largest US Insurer","AM Best Downgraded 2025"],
     highlights: [
       "Largest single health insurer in the US",
       "Extensive digital health platform",
@@ -143,8 +143,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "UnitedHealthcare offers the widest reach and most diverse plan portfolio, though customer satisfaction varies by region.",
-    editorialSource: "Forbes Health Insurance Guide 2025",
+      "Dropped from #1 to #12 in Insure.com's annual ranking — steepest decline of any insurer. AM Best downgraded from A+ to A (August 2025). Lowest customer service (72%), trustworthiness (81%), and recommendation (80%) scores among surveyed insurers.",
+    editorialSource: "Insure.com 2026 / AM Best August 2025 / J.D. Power 2025",
   },
   {
     id: "us-aetna",
@@ -153,12 +153,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United States",
     countryCode: "us",
     logo: "/logos/aetna.svg",
-    rating: 4.1,
+    rating: 4.3,
     reviewCount: 7654,
     monthlyPremium: "$380 - $820",
     deductible: "$1,500 - $5,500",
     coverageType: "premium",
-    badges: ["Best Pharmacy Integration", "Innovation Award"],
+    badges: ["88% Members in 4+ Star Plans","CMS 4.5-Star x12","Best Medicare"],
     highlights: [
       "CVS pharmacy integration",
       "MinuteClinic access included",
@@ -191,8 +191,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "The CVS-Aetna merger creates unique advantages in pharmacy integration and accessible care through MinuteClinics.",
-    editorialSource: "Healthline Best Insurance 2025",
+      "88% of Aetna Medicare Advantage members in 4-star+ plans for 2025 — highest member experience score since CMS launched Quality Bonus Stars in 2012. 12 plans earned CMS 4.5 stars. AM Best A (Excellent).",
+    editorialSource: "CVS Health / CMS Star Ratings 2025 / J.D. Power 2025",
   },
   {
     id: "us-cigna",
@@ -201,12 +201,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United States",
     countryCode: "us",
     logo: "/logos/cigna.svg",
-    rating: 4.3,
+    rating: 4.2,
     reviewCount: 6789,
     monthlyPremium: "$420 - $880",
     deductible: "$1,500 - $6,500",
     coverageType: "comprehensive",
-    badges: ["Best International", "Best Employer Plans"],
+    badges: ["Best Digital Experience 2025","AM Best A","Best Healthcare Tools"],
     highlights: [
       "Strong international coverage options",
       "Excellent employer group plans",
@@ -239,8 +239,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Cigna stands out for international coverage and its commitment to behavioral health and wellness programs.",
-    editorialSource: "NerdWallet Health Insurance Ratings 2025",
+      "J.D. Power: best digital experience to commercial members (2025). Tied for 2nd-highest customer service score. Strong billing handling and low-deductible performance. AM Best A (Excellent).",
+    editorialSource: "J.D. Power Digital Experience 2025 / Insure.com 2026 / AM Best",
   },
   {
     id: "us-humana",
@@ -249,12 +249,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United States",
     countryCode: "us",
     logo: "/logos/humana.svg",
-    rating: 4.0,
+    rating: 3.7,
     reviewCount: 5432,
     monthlyPremium: "$320 - $720",
     deductible: "$1,000 - $5,000",
     coverageType: "standard",
-    badges: ["Best Medicare Plans", "Best for Seniors"],
+    badges: ["AM Best A","Best for Seniors"],
     highlights: [
       "Top-rated Medicare Advantage plans",
       "Strong chronic care management",
@@ -287,8 +287,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Humana's Medicare Advantage plans consistently rank among the highest rated, with exceptional chronic care management.",
-    editorialSource: "Medicare.gov Plan Ratings 2025",
+      "CMS Medicare Star Ratings declined sharply in 2025 — ~70% of members now in 3-3.5 star plans. AM Best A (Excellent). Venteur customer satisfaction 4.42/5 (#2). Stock dropped significantly on star rating release.",
+    editorialSource: "CMS Star Ratings 2025 / Fierce Healthcare / AM Best / Venteur 2026",
   },
   {
     id: "us-anthem",
@@ -302,7 +302,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "$400 - $850",
     deductible: "$1,500 - $6,500",
     coverageType: "comprehensive",
-    badges: ["Best Regional Coverage"],
+    badges: ["NCQA 5-Star Medicare (HealthSun)","J.D. Power #1 OH Medicare 2 Years"],
     highlights: [
       "Strong regional networks",
       "LiveHealth Online telehealth",
@@ -335,8 +335,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Anthem provides solid regional coverage with the added benefit of Blue Cross Blue Shield network interoperability.",
-    editorialSource: "Consumer Reports Health Insurance 2025",
+      "HealthSun subsidiary earned NCQA 5-star and CMS 5-star Medicare ratings (2025). J.D. Power #1 Ohio Medicare 2 consecutive years (680). However, lowest digital experience score (66%) among all insurers reviewed.",
+    editorialSource: "NCQA 2025 / CMS Star Ratings / J.D. Power 2025 / Insure.com 2026",
   },
   {
     id: "us-oscar",
@@ -345,12 +345,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United States",
     countryCode: "us",
     logo: "/logos/oscar.svg",
-    rating: 4.4,
+    rating: 4,
     reviewCount: 3456,
     monthlyPremium: "$350 - $750",
     deductible: "$2,000 - $7,500",
     coverageType: "standard",
-    badges: ["Best Tech", "Best User Experience", "Rising Star"],
+    badges: ["NerdWallet Top Pick","Best Tech","Best User Experience"],
     highlights: [
       "Tech-first health insurance",
       "Free virtual primary care",
@@ -383,8 +383,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Oscar's technology-first approach and transparent pricing model make it a standout choice for digitally-savvy consumers.",
-    editorialSource: "TechCrunch Health Insurance Review 2025",
+      "NerdWallet top pick for marketplace insurance. Some of the cheapest Silver and Gold plans among large insurers. Industry-leading mobile app with free 24/7 virtual urgent care. AM Best B++ (Good), outlook Positive.",
+    editorialSource: "NerdWallet 2025 / HealthCareInsider (7.0/10) / AM Best",
   },
 
   // United Kingdom
@@ -1464,7 +1464,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "CAD 80 - CAD 350",
     deductible: "CAD 0 - CAD 500",
     coverageType: "comprehensive",
-    badges: ["#1 in Canada", "Best Overall CA", "Most Trusted"],
+    badges: ["#1 Canada","AM Best A+","BPM Top Provider 2024"],
     highlights: [
       "Canada's largest health insurer",
       "Comprehensive supplementary coverage",
@@ -1497,8 +1497,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Sun Life continues to dominate Canadian health benefits with its comprehensive coverage and innovative Lumino Health platform.",
-    editorialSource: "Benefits Canada Awards 2025",
+      "Canada's largest health benefits provider. AM Best A+ (Superior) with 73.3% claim payout ratio (second-highest in Canada). BPM Top Benefit Providers Award 2024. Innovative Lumino Health digital platform.",
+    editorialSource: "BPM Awards 2024 / AM Best / Lowestrates.io / NerdWallet (4.2/5)",
   },
   {
     id: "ca-manulife",
@@ -1512,7 +1512,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "CAD 70 - CAD 300",
     deductible: "CAD 0 - CAD 250",
     coverageType: "premium",
-    badges: ["Best Flexibility CA", "Innovation Award"],
+    badges: ["AM Best A+","BPM Top Provider 2024","Best Flexibility CA"],
     highlights: [
       "Highly flexible plan design",
       "Vitality wellness program",
@@ -1545,8 +1545,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Manulife's Flexcare stands out for its customization options, allowing Canadians to build coverage that fits their specific needs.",
-    editorialSource: "Canadian Underwriter Insurance Awards 2025",
+      "AM Best A+ (Superior). BPM Top Benefit Providers Award 2024. Vitality wellness program offers premium reductions for healthy living. 70.2% claim payout ratio.",
+    editorialSource: "BPM Awards 2024 / AM Best / Canadian Underwriter",
   },
   {
     id: "ca-greenshield",
@@ -1560,7 +1560,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "CAD 65 - CAD 250",
     deductible: "CAD 0 - CAD 200",
     coverageType: "standard",
-    badges: ["Best Value CA", "Social Enterprise"],
+    badges: ["Not-For-Profit","Best Value CA","4.8/5 HelloSafe"],
     highlights: [
       "Not-for-profit insurer",
       "Affordable premiums",
@@ -1593,8 +1593,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Green Shield's not-for-profit model delivers excellent value and has been a pioneer in integrating health services with benefits.",
-    editorialSource: "Globe and Mail Benefits Review 2025",
+      "Canada's only not-for-profit health and benefits company. HelloSafe rates 4.8/5 (637 Trustpilot reviews). Guaranteed coverage without medical exams. Free GreenShield Pharmacy prescription delivery and 24/7 telemedicine.",
+    editorialSource: "HelloSafe.ca (4.8/5) / Globe and Mail 2025",
   },
   {
     id: "ca-canada-life",
@@ -1802,7 +1802,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "AUD 100 - AUD 380",
     deductible: "AUD 0 - AUD 750",
     coverageType: "premium",
-    badges: ["Canstar 10 Consecutive Years", "WeMoney Insurer of Year 2025", "88.5c per Dollar Returned"],
+    badges: ["Canstar 10 Consecutive Years","WeMoney Insurer of Year 2025","88.5c per Dollar Returned"],
     highlights: [
       "Canstar Outstanding Value 10 consecutive years",
       "WeMoney Health Insurer of the Year 2025",
@@ -1833,8 +1833,8 @@ export const originalPlans: InsurancePlan[] = [
       international: false,
       telehealth: true,
     },
-    editorialExcerpt: "Canstar Outstanding Value award winner for 10 consecutive years (2016-2025). WeMoney Health Insurer of the Year 2025. Returns 88.5 cents per premium dollar vs industry average of 84.4 cents.",
-    editorialSource: "Canstar 2025 / WeMoney Insurance Awards 2025",
+    editorialExcerpt: "Canstar Outstanding Value award winner for 10 consecutive years (2016-2025). WeMoney Health Insurer of the Year 2025. Returns 88.5 cents per premium dollar vs industry average of 84.4 cents. Australia's largest not-for-profit fund.",
+    editorialSource: "Canstar 2025 / WeMoney Insurance Awards 2025 / HCF Press Release",
   },
   {
     id: "au-hcf",
@@ -2425,12 +2425,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Brazil",
     countryCode: "br",
     logo: "/logos/amil.svg",
-    rating: 4.2,
+    rating: 4,
     reviewCount: 8765,
     monthlyPremium: "R$ 400 - R$ 2,000",
     deductible: "R$ 0",
     coverageType: "comprehensive",
-    badges: ["#1 in Brazil", "Largest Network BR"],
+    badges: ["Largest Network BR","UnitedHealth Backed"],
     highlights: [
       "Brazil's largest health insurer",
       "Extensive hospital network",
@@ -2463,8 +2463,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Amil's vast network and UnitedHealth backing make it Brazil's most comprehensive private health insurance option.",
-    editorialSource: "Folha de São Paulo Health Insurance Guide 2025",
+      "ANS IDSS score approximately 0.79 — 'good performance' tier. Top 5 national operator backed by UnitedHealth Group. Largest hospital and clinic network in Brazil.",
+    editorialSource: "ANS IDSS 2024 / saude.zelas.com.br",
   },
   {
     id: "br-sulamerica",
@@ -2473,12 +2473,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Brazil",
     countryCode: "br",
     logo: "/logos/sulamerica.svg",
-    rating: 4.3,
+    rating: 4.5,
     reviewCount: 6543,
     monthlyPremium: "R$ 350 - R$ 1,800",
     deductible: "R$ 0",
     coverageType: "premium",
-    badges: ["Best Premium BR", "Best Service BR"],
+    badges: ["IDSS 0.92","Excellence Operator","Highest Financial Result"],
     highlights: [
       "Premium service quality",
       "Excellent hospital partnerships",
@@ -2511,8 +2511,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "SulAmérica delivers the premium health insurance experience in Brazil, consistently rated highest for service quality.",
-    editorialSource: "Exame Melhores Planos de Saúde 2025",
+      "ANS IDSS score of 0.92 (2025) — well above national average of 0.7930. Classified as 'excellence operator' (score above 0.85). R$ 2.1 billion financial result 2024 — highest among operators.",
+    editorialSource: "ANS IDSS 2025 / Compareplanodesaude",
   },
   {
     id: "br-bradesco",
@@ -2521,12 +2521,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Brazil",
     countryCode: "br",
     logo: "/logos/bradesco.svg",
-    rating: 4.1,
+    rating: 4.2,
     reviewCount: 7654,
     monthlyPremium: "R$ 300 - R$ 1,600",
     deductible: "R$ 0",
     coverageType: "standard",
-    badges: ["Best Value BR", "Bank Integration"],
+    badges: ["IDSS 0.8112","Most Recommended Plan","Experience Awards 2025"],
     highlights: [
       "Banking integration advantages",
       "Competitive pricing",
@@ -2559,8 +2559,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Bradesco Saúde leverages Brazil's banking infrastructure to offer well-priced health insurance with convenient access.",
-    editorialSource: "Valor Econômico Insurance Rankings 2025",
+      "ANS IDSS score of 0.8112 (2025), up from 0.7626 in 2024. Won Experience Awards 2025 as 'Most Recommended Health Plan in Brazil'. Perfect 1.0000 on Market Sustainability dimension.",
+    editorialSource: "ANS IDSS 2025 / Experience Awards 2025 / SEGS Portal",
   },
   {
     id: "br-unimed",
@@ -2569,12 +2569,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Brazil",
     countryCode: "br",
     logo: "/logos/unimed.svg",
-    rating: 4.0,
+    rating: 4.6,
     reviewCount: 9876,
     monthlyPremium: "R$ 250 - R$ 1,400",
     deductible: "R$ 0",
     coverageType: "standard",
-    badges: ["Largest Cooperative", "Best Regional BR"],
+    badges: ["90% of Top-Rated Plans","18 Perfect IDSS Scores","20.9M Members"],
     highlights: [
       "Medical cooperative model",
       "Nationwide cooperative network",
@@ -2607,8 +2607,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Unimed's cooperative model gives it unmatched local presence across Brazil, though service consistency varies.",
-    editorialSource: "Proteste Consumer Guide 2025",
+      "90% of Brazil's top-rated operators are Unimed cooperatives. 18 of 20 operators earning perfect 1.0000 IDSS scores are Unimed. Unimed Litoral ranked #1 among all 873 evaluated operators. 20.9 million members nationwide.",
+    editorialSource: "ANS IDSS 2025 / PR Newswire Brasil",
   },
 
   // South Africa
@@ -2619,12 +2619,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "South Africa",
     countryCode: "za",
     logo: "/logos/discovery.svg",
-    rating: 4.6,
+    rating: 4.4,
     reviewCount: 8765,
     monthlyPremium: "ZAR 2,500 - ZAR 12,000",
     deductible: "ZAR 0 - ZAR 5,000",
     coverageType: "comprehensive",
-    badges: ["#1 in South Africa", "Best Innovation", "Vitality Pioneer"],
+    badges: ["56.7% Market Share","AA+ Credit Rating","R80.7B Revenue"],
     highlights: [
       "South Africa's largest medical scheme",
       "Pioneer of Vitality wellness",
@@ -2657,8 +2657,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Discovery Health has transformed South African healthcare with its Vitality model, now exported to 40+ countries.",
-    editorialSource: "Financial Mail Top Medical Schemes 2025",
+      "56.7% of all open medical scheme members. AA+ credit rating. 2,735,204 beneficiaries. Insurance revenue R80.7 billion (2024). Hippo.co.za editorial rating 4.4/5. Returned to R350M surplus from R2.25B deficit.",
+    editorialSource: "DHMS 2024 Results / Hippo.co.za / Fanews",
   },
   {
     id: "za-bonitas",
@@ -2667,12 +2667,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "South Africa",
     countryCode: "za",
     logo: "/logos/bonitas.svg",
-    rating: 4.2,
+    rating: 4.5,
     reviewCount: 4567,
     monthlyPremium: "ZAR 2,000 - ZAR 8,000",
     deductible: "ZAR 0 - ZAR 3,000",
     coverageType: "standard",
-    badges: ["Best Value ZA", "Most Affordable Open Scheme"],
+    badges: ["Ask Afrika #1 Medical Aid","BHF Titanium x2","Hippo 4.5/5"],
     highlights: [
       "Affordable open medical scheme",
       "Good value for money",
@@ -2705,8 +2705,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Bonitas offers the best value among South Africa's open medical schemes, making private healthcare more accessible.",
-    editorialSource: "Business Day Medical Schemes Review 2025",
+      "Ask Afrika Orange Index Award winner in Medical Aid category (4th win in 7 years). BHF Titanium Awards for Best Integrated Report and Best Operational Performance. Hippo.co.za 4.5/5. 36.5% solvency ratio.",
+    editorialSource: "Ask Afrika 2024 / BHF Titanium Awards / Hippo.co.za",
   },
   {
     id: "za-momentum",
@@ -2715,12 +2715,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "South Africa",
     countryCode: "za",
     logo: "/logos/momentum.svg",
-    rating: 4.3,
+    rating: 4.5,
     reviewCount: 5432,
     monthlyPremium: "ZAR 2,200 - ZAR 10,000",
     deductible: "ZAR 0 - ZAR 4,000",
     coverageType: "premium",
-    badges: ["Best Customer Service ZA", "Innovation Award"],
+    badges: ["News24 Scheme of Year 2025","Hippo 4.5/5"],
     highlights: [
       "Strong customer service",
       "Multiply wellness rewards",
@@ -2753,8 +2753,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Momentum Health delivers excellent customer service and solid coverage, with the Multiply program adding genuine value.",
-    editorialSource: "Sunday Times Top Brands Survey 2025",
+      "News24 Business Award — Scheme of the Year 2025. Hippo.co.za editorial rating 4.5/5. Multiply wellness program adds genuine value. 30.4% solvency ratio.",
+    editorialSource: "News24 Business Awards 2025 / Hippo.co.za",
   },
   {
     id: "za-medshield",

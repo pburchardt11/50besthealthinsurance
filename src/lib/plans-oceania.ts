@@ -14,7 +14,7 @@ export const plansOceania: InsurancePlan[] = [
     monthlyPremium: "NZD 85 - NZD 280",
     deductible: "NZD 0 - NZD 500",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Most Popular", "Top Rated"],
+    badges: ["S&P A+","Reader's Digest Most Trusted 2017-2025","Not-for-Profit"],
     highlights: [
       "New Zealand's largest health insurer with 900,000+ members",
       "Covers specialist consultations, surgery, and imaging",
@@ -47,8 +47,8 @@ export const plansOceania: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Southern Cross Wellbeing Two is the definitive New Zealand health insurance plan, offering comprehensive specialist and surgical coverage at competitive rates backed by the country's most recognisable health insurance brand.",
-    editorialSource: "New Zealand Consumer Health Insurance Report 2025",
+      "NZ's largest health insurer with 951,000+ members. S&P A+ (Strong). Reader's Digest Most Trusted Health Insurance Brand 2017-2025 (consecutive). Pays 93.3 cents per premium dollar in claims.",
+    editorialSource: "Southern Cross Annual Report 2024 / MoneyHub NZ / Reader's Digest",
   },
   {
     id: "nz-nib-nz",
@@ -62,7 +62,7 @@ export const plansOceania: InsurancePlan[] = [
     monthlyPremium: "NZD 100 - NZD 340",
     deductible: "NZD 0 - NZD 750",
     coverageType: "comprehensive",
-    badges: ["Best for Expats", "Best Digital Experience"],
+    badges: ["S&P A","Canstar Outstanding Value 7 Years","NZ #2 Insurer"],
     highlights: [
       "Comprehensive coverage including GP visits and dental",
       "Strong international coverage for New Zealanders overseas",
@@ -95,8 +95,8 @@ export const plansOceania: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "nib New Zealand Ultimate Health stands out for its digital-first experience and comprehensive coverage that extends internationally, making it the top choice for New Zealanders who travel or live abroad.",
-    editorialSource: "NZ Health Insurance Comparison Guide 2025",
+      "NZ's 2nd-largest health insurer. S&P A (Strong). Won Canstar Outstanding Value Working Visa Health Cover for 7 consecutive years. Solvency ratio 157% (March 2025).",
+    editorialSource: "PolicyWise NZ / Canstar NZ 2025 / MoneyHub NZ",
   },
   {
     id: "nz-accuro",

@@ -14,7 +14,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "CNY 380 – CNY 1,200",
     deductible: "CNY 5,000",
     coverageType: "comprehensive",
-    badges: ["Best Seller", "Top Rated", "Digital Health"],
+    badges: ["AM Best A","Forbes Global #1 China Insurer","Brand Finance World #1"],
     highlights: [
       "Nationwide hospital network covering 3,000+ hospitals across all provinces",
       "Integrated AI-powered telehealth via Ping An Good Doctor app",
@@ -47,8 +47,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Ping An E Health consistently ranks as the top private health plan choice for urban professionals in China, praised for its digital-first claims experience and breadth of hospital partnerships.",
-    editorialSource: "China Insurance Review, 2024",
+      "AM Best upgraded to A (Excellent) in September 2025. World's most valuable insurance brand for 9th consecutive year (Brand Finance, USD 33.6B). Forbes Global 2000 #29, #1 among China's insurers.",
+    editorialSource: "AM Best Sept 2025 / Brand Finance / Forbes Global 2000",
   },
   {
     id: "cn-zhongan",
@@ -301,7 +301,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "THB 3,500 – THB 12,000",
     deductible: "THB 5,000",
     coverageType: "comprehensive",
-    badges: ["Top Rated", "Expat Friendly", "Hospital Cash"],
+    badges: ["Top 5 Thailand","Thailand Industry Excellence 2025","Expat Friendly"],
     highlights: [
       "Annual benefit limit up to THB 10,000,000 across all coverage categories",
       "Direct billing at 400+ hospitals throughout Thailand",
@@ -333,8 +333,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "AXA SmartCare Executive is the benchmark comprehensive health plan in Thailand's competitive private insurance market, delivering reliable protection and an extensive hospital network at a competitive price point.",
-    editorialSource: "Thailand Insurance Review, 2024",
+      "Top 5 private health insurer in Thailand with 20+ years local presence. Noted for solid coverage with modern digital tools.",
+    editorialSource: "Thailand Industry Excellence Awards 2025 / The Thaiger",
   },
   {
     id: "th-bupa",
@@ -348,7 +348,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "THB 5,000 – THB 18,000",
     deductible: "THB 0",
     coverageType: "premium",
-    badges: ["Zero Deductible", "Premium Network", "Dental Included"],
+    badges: ["Now Allianz Ayudhya","Zero Deductible","Class-Leading Benefits"],
     highlights: [
       "Zero deductible on all covered medical expenses for hassle-free claims",
       "Includes dental and optical benefits in the base plan",
@@ -380,8 +380,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Bupa Thailand Gold Plan earns its premium price tag through class-leading benefits, a zero-deductible structure, and one of the most comprehensive base plans available in the Thai market.",
-    editorialSource: "Bangkok Post Health Insurance Roundup, 2024",
+      "Bupa Thailand Gold Plan (now Allianz Ayudhya) earns its premium price through class-leading benefits and zero-deductible structure.",
+    editorialSource: "Bangkok Post Health Insurance Roundup 2024",
   },
   {
     id: "th-pacific-cross",
@@ -444,7 +444,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "VND 800,000 – VND 3,500,000",
     deductible: "VND 1,000,000",
     coverageType: "standard",
-    badges: ["National Leader", "Family Plans", "Hospital Network"],
+    badges: ["Vietnam's #1 Insurance Brand","Decision Lab 2024 Score 7.2"],
     highlights: [
       "Vietnam's largest insurer with a hospital network spanning all 63 provinces",
       "Group family enrollment available with discounts for additional members",
@@ -476,8 +476,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Bao Viet An Gia remains the most recognizable and widely purchased private health plan in Vietnam, offering dependable domestic coverage at accessible price points across the country.",
-    editorialSource: "Vietnam Insurance Market Report, 2024",
+      "Ranked #1 insurance brand in Vietnam by Decision Lab Best Insurance Rankings 2024 (score 7.2). Market leader by gross premiums (VND 33.5T in 2023).",
+    editorialSource: "Decision Lab 2024 / Vietnam Plus",
   },
   {
     id: "vn-cigna",
@@ -636,7 +636,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "IDR 600,000 – IDR 3,000,000",
     deductible: "IDR 1,000,000",
     coverageType: "comprehensive",
-    badges: ["Top Seller", "Critical Illness", "Cashless Claims"],
+    badges: ["Top Seller Indonesia","Cashless Claims","30 Years"],
     highlights: [
       "Cashless hospitalization at 1,800+ hospital partners across Indonesia",
       "Critical illness lump-sum benefit up to IDR 1,000,000,000",
@@ -668,8 +668,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "PRUPrime HealthCare Plus from Prudential Indonesia continues to dominate the market through unmatched brand trust, an extensive cashless hospital network, and generous benefit limits suited to Indonesia's rapidly growing middle class.",
-    editorialSource: "Kontan Insurance Review Indonesia, 2024",
+      "Top private health insurer in Indonesia with 30+ years presence. Dominates through brand trust, extensive cashless hospital network, and generous benefit limits.",
+    editorialSource: "Kontan Insurance Review 2024 / Mordor Intelligence",
   },
   {
     id: "id-allianz",
@@ -727,12 +727,12 @@ export const plansAsia: InsurancePlan[] = [
     country: "Malaysia",
     countryCode: "my",
     logo: "/logos/great-eastern.svg",
-    rating: 4.5,
+    rating: 4.4,
     reviewCount: 11340,
     monthlyPremium: "MYR 180 – MYR 700",
     deductible: "MYR 1,000",
     coverageType: "comprehensive",
-    badges: ["Top Rated", "As Charged", "Nationwide Network"],
+    badges: ["Market Leader Malaysia","Malaysia Book of Records","7x BrandLaureate Gold"],
     highlights: [
       "As-charged hospitalization coverage with no benefit sub-limits on daily room rates",
       "Covers treatment at government and private hospitals across Malaysia",
@@ -764,8 +764,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Great Eastern TotalHealth Plus earns consistent praise for its as-charged benefit structure, sparing policyholders from the frustrating sub-limit gaps that plague many competing plans in the Malaysian market.",
-    editorialSource: "The Edge Malaysia Insurance Special Report, 2024",
+      "Oldest and largest life insurer in Malaysia since 1908 (Malaysia Book of Records certified). Won Gold in Health Insurance 7 consecutive years at BrandLaureate BestBrands Awards.",
+    editorialSource: "BrandLaureate 2023-2024 / Mordor Intelligence",
   },
   {
     id: "my-axa-affin",
@@ -823,12 +823,12 @@ export const plansAsia: InsurancePlan[] = [
     country: "Taiwan",
     countryCode: "tw",
     logo: "/logos/cathay-life.svg",
-    rating: 4.5,
+    rating: 4.4,
     reviewCount: 13250,
     monthlyPremium: "TWD 1,500 – TWD 6,000",
     deductible: "TWD 3,000",
     coverageType: "comprehensive",
-    badges: ["Market Leader", "NHI Supplement", "Critical Illness"],
+    badges: ["Fitch A Stable","AM Best A (Cathay Century)","Taiwan Market Leader"],
     highlights: [
       "Supplements Taiwan's universal National Health Insurance (NHI) for private room upgrades",
       "Critical illness lump-sum benefit up to TWD 3,000,000",
@@ -860,8 +860,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Cathay Life Golden Shield Health is the definitive NHI supplement for Taiwanese residents, trusted by millions to fill the gaps that Taiwan's otherwise excellent public health system doesn't cover.",
-    editorialSource: "Taiwan Insurance Review Quarterly, 2024",
+      "Largest insurer in Taiwan by total premiums. Fitch confirmed A (Stable) in 2025. AM Best affirmed A (Excellent) for Cathay Century subsidiary.",
+    editorialSource: "Fitch Ratings 2025 / AM Best Sept 2024",
   },
   {
     id: "tw-cigna-taiwan",
@@ -1114,7 +1114,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "USD 40 – USD 150",
     deductible: "USD 100",
     coverageType: "standard",
-    badges: ["Local Leader", "USD Pricing", "Hospital Network"],
+    badges: ["Cambodia's Most Established","20+ Years Operating"],
     highlights: [
       "Cambodia's most established domestic insurer with 20+ years of operation",
       "USD-denominated plans provide currency stability in Cambodia's dollarized economy",
@@ -1146,8 +1146,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Forte Health Premier Plus is the default benchmark for private health insurance in Cambodia, trusted by local businesses and residents alike for dependable claims payment and a solid hospital network in Phnom Penh.",
-    editorialSource: "Khmer Times Business Review, 2024",
+      "Cambodia's most established domestic insurer with 20+ years. Leading general insurer among 13 licensed general insurers.",
+    editorialSource: "Khmer Times Business Review 2024",
   },
   {
     id: "kh-pacific-cross-kh",
@@ -1204,12 +1204,12 @@ export const plansAsia: InsurancePlan[] = [
     country: "Laos",
     countryCode: "la",
     logo: "/logos/allianz.svg",
-    rating: 4.0,
+    rating: 4,
     reviewCount: 780,
     monthlyPremium: "LAK 800,000 – LAK 3,500,000",
     deductible: "LAK 500,000",
     coverageType: "standard",
-    badges: ["International Brand", "Medical Evacuation", "Vientiane Network"],
+    badges: ["International Brand","Medical Evacuation","30+ Years in Laos"],
     highlights: [
       "International brand credibility with strong claims settlement reputation",
       "Medical evacuation to Thailand covered as standard benefit",
@@ -1241,8 +1241,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Allianz Laos Health Care Plan is the most credible private health insurance option in Laos's thin insurance market, with medical evacuation coverage that addresses the country's biggest healthcare challenge head-on.",
-    editorialSource: "Vientiane Times Business Section, 2024",
+      "Established 1990 as JV between Lao Ministry of Finance and Allianz. Network of 6 clinics in Lao PDR + 300+ hospitals in Thailand for evacuation.",
+    editorialSource: "Vientiane Times / Allianz General Laos 2024",
   },
   {
     id: "la-bcel-one",
@@ -1305,7 +1305,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "BDT 1,200 – BDT 5,000",
     deductible: "BDT 5,000",
     coverageType: "standard",
-    badges: ["National Leader", "Hospital Coverage", "Family Plans"],
+    badges: ["IDRA Excellence Award 2024 #3","Pioneer in Micro-Insurance"],
     highlights: [
       "Coverage at 300+ hospitals and diagnostic centers across Bangladesh",
       "Family floater plans with shared annual limit for household members",
@@ -1337,8 +1337,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Delta Life Health Guard Plus remains Bangladesh's most trusted private health plan, offering meaningful domestic hospital coverage and family protection in a market where private health insurance adoption is still growing rapidly.",
-    editorialSource: "The Daily Star Bangladesh Business, 2024",
+      "Ranked 3rd in IDRA Insurance Excellence Awards 2024 (life category). Founded 1986. Pioneer in micro-insurance in Bangladesh.",
+    editorialSource: "Daily Star Bangladesh / IDRA 2024",
   },
   {
     id: "bd-metlife",
@@ -1400,7 +1400,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "PKR 3,000 – PKR 12,000",
     deductible: "PKR 10,000",
     coverageType: "comprehensive",
-    badges: ["Pakistan Leader", "Extensive Network", "Family Floater"],
+    badges: ["#2 Pakistan Private Life/Health","PACRA Rated","500+ Hospitals"],
     highlights: [
       "Pakistan's largest private life and health insurer with 500+ hospital partnerships",
       "Family floater design covering spouse and up to four children",
@@ -1432,8 +1432,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Jubilee Life Health Complete stands as Pakistan's reference point for private family health insurance, combining an unmatched hospital network with family floater economics that deliver strong household value.",
-    editorialSource: "The News Pakistan Finance, 2024",
+      "Known for exceptional low premium health policies and easy terms. #2 private life and health insurer in Pakistan after state-owned State Life.",
+    editorialSource: "The News Pakistan / Graana.com 2024",
   },
   {
     id: "pk-adamjee",
@@ -1537,12 +1537,12 @@ export const plansAsia: InsurancePlan[] = [
     country: "Sri Lanka",
     countryCode: "lk",
     logo: "/logos/ceylinco.svg",
-    rating: 4.0,
+    rating: 4,
     reviewCount: 6890,
     monthlyPremium: "LKR 2,500 – LKR 10,000",
     deductible: "LKR 5,000",
     coverageType: "standard",
-    badges: ["Local Leader", "Family Plans", "Affordable"],
+    badges: ["21.4% Market Share","Market Leader Long-Term Insurance"],
     highlights: [
       "Sri Lanka's most widely distributed health plan with an island-wide agent network",
       "Family plans covering household members with shared annual limit",
@@ -1574,8 +1574,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Ceylinco Life HealthFirst Gold reaches Sri Lankan communities that larger international brands cannot, with an island-wide agent network and competitive family plan pricing that has made it a household name.",
-    editorialSource: "Daily Mirror Sri Lanka, 2024",
+      "Market leader in long-term insurance with 21.4% market share (2022). Largest agent network in Sri Lanka.",
+    editorialSource: "KPMG Sri Lanka Insurance Report",
   },
 
   // ─── NEPAL (NP) ───────────────────────────────────────────────────────────
@@ -1591,7 +1591,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "NPR 2,000 – NPR 8,000",
     deductible: "NPR 5,000",
     coverageType: "standard",
-    badges: ["National Leader", "Hospital Network", "Group Plans"],
+    badges: ["Nepal Market Leader","Highest Premium Income"],
     highlights: [
       "Nepal's largest life insurer with coverage at major hospitals in Kathmandu Valley",
       "Group health plans widely adopted by Nepal's corporate sector",
@@ -1623,8 +1623,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Nepal Life Health Guard Plus is the practical default for private health insurance in Nepal, valued more for its institutional trust and corporate plan reach than for the breadth of its benefits.",
-    editorialSource: "Republica Nepal Business, 2024",
+      "Largest life insurer in Nepal. #1 by premium income (NPR 36.86B, +11.64% YoY FY2025/26).",
+    editorialSource: "Beema Post April 2026",
   },
   {
     id: "np-nlic-care",
@@ -1682,12 +1682,12 @@ export const plansAsia: InsurancePlan[] = [
     country: "Mongolia",
     countryCode: "mn",
     logo: "/logos/mig.svg",
-    rating: 3.8,
+    rating: 3.7,
     reviewCount: 1230,
     monthlyPremium: "MNT 50,000 – MNT 200,000",
     deductible: "MNT 100,000",
     coverageType: "standard",
-    badges: ["Local Leader", "Ulaanbaatar Network", "Family Cover"],
+    badges: ["Top 5 Mongolia"],
     highlights: [
       "Mongolia's largest private insurance company with 30+ years of operation",
       "Coverage at major private hospitals and clinics in Ulaanbaatar",
@@ -1719,8 +1719,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "MIG Insurance Health Shield is the reference private health insurance product in Mongolia, trusted by Ulaanbaatar's growing middle class to supplement the country's public health system with access to quality private facilities.",
-    editorialSource: "Mongolian Business Insider, 2024",
+      "Among top 5 insurers in Mongolia alongside Practical, Nomin, Mandal General, and Bodi. Market projected 12%+ CAGR 2024-2028.",
+    editorialSource: "GlobalData Mongolia 2024",
   },
   {
     id: "mn-axa-mn",
@@ -1782,7 +1782,7 @@ export const plansAsia: InsurancePlan[] = [
     monthlyPremium: "BND 80 – BND 350",
     deductible: "BND 500",
     coverageType: "standard",
-    badges: ["Shariah Compliant", "Local Leader", "Private Hospital Access"],
+    badges: ["30+ Year Market Leader","Sharia-Compliant","BDCB Regulated"],
     highlights: [
       "Shariah-compliant takaful structure suitable for Brunei's majority Muslim population",
       "Coverage at Brunei's private hospitals and specialist centres",
@@ -1814,8 +1814,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Takaful Brunei Health Takaful Premier is the natural choice for Brunei's Muslim majority seeking Shariah-compliant private supplemental coverage, combining religious appropriateness with solid private hospital access.",
-    editorialSource: "Borneo Bulletin Business, 2024",
+      "Market leader in takaful for 30+ years. Operates TBA and TBK entities. Also offers TBA As-Syifa Medical for foreign nationals.",
+    editorialSource: "BDCB / Takaful Brunei 2024",
   },
   {
     id: "bn-prudential-bsn",
@@ -1872,12 +1872,12 @@ export const plansAsia: InsurancePlan[] = [
     country: "Maldives",
     countryCode: "mv",
     logo: "/logos/allied-maldives.svg",
-    rating: 3.9,
+    rating: 4.2,
     reviewCount: 870,
     monthlyPremium: "MVR 500 – MVR 2,500",
     deductible: "MVR 1,000",
     coverageType: "standard",
-    badges: ["National Leader", "Medical Evacuation", "Maldives Network"],
+    badges: ["44% Market Share","National UHC Administrator","Cashless Leader"],
     highlights: [
       "Maldives' oldest and largest insurance company with nationwide atoll coverage",
       "Medical evacuation to Sri Lanka or India included as standard",
@@ -1909,8 +1909,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Allied Insurance Maldives Health Plus is indispensable for Maldivians living outside Malé, where the medical evacuation benefit can literally be the difference between life and death in a remote atoll emergency.",
-    editorialSource: "Avas Maldives Business News, 2024",
+      "Dominant market leader with ~44% market share. Responsible administrator of universal health insurance scheme. Widest network of empaneled service providers in Maldives and abroad.",
+    editorialSource: "Maldives Financial Review / STO Annual Report",
   },
   {
     id: "mv-cigna-mv",
@@ -1967,12 +1967,12 @@ export const plansAsia: InsurancePlan[] = [
     country: "Bhutan",
     countryCode: "bt",
     logo: "/logos/ricbl.svg",
-    rating: 3.8,
+    rating: 4,
     reviewCount: 680,
     monthlyPremium: "BTN 800 – BTN 3,500",
     deductible: "BTN 2,000",
     coverageType: "standard",
-    badges: ["State Insurer", "Medical Referral Cover", "Thimphu Network"],
+    badges: ["Bhutan Market Leader","India Hospital Network","Cashless 2024"],
     highlights: [
       "Royal Insurance Corporation of Bhutan, the country's sole state-owned insurer",
       "Coverage for government-referred treatment at specialist hospitals in India",
@@ -2004,8 +2004,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "RICBL Kidu Health Insurance occupies a unique position as Bhutan's only health insurance product, filling the gap between Bhutan's free but limited public healthcare and the specialist care many Bhutanese citizens must access across the border in India.",
-    editorialSource: "Kuensel Bhutan Business Review, 2024",
+      "One of only 3 insurance companies in Bhutan and the only one offering both life and non-life. Launched cashless medical insurance for 500+ hospitals in India in July 2024.",
+    editorialSource: "BBS News / RICB 2024",
   },
   {
     id: "bt-axa-bt",

@@ -14,7 +14,7 @@ export const plansMiddleEast: InsurancePlan[] = [
     monthlyPremium: "SAR 850 - SAR 2,200",
     deductible: "SAR 500 - SAR 2,000",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Most Popular", "Best Network"],
+    badges: ["Saudi Market Leader","No Pre-Approvals Launch 2025","52% Combined Share"],
     highlights: [
       "Widest hospital network in Saudi Arabia",
       "24/7 telehealth consultations in Arabic",
@@ -47,8 +47,8 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Bupa Arabia sets the benchmark for private health coverage in Saudi Arabia with its extensive network and robust digital infrastructure.",
-    editorialSource: "MENA Insurance Review 2025",
+      "Largest health insurer in Saudi Arabia. Combined with Tawuniya controls 52% of GWP. 750+ network hospitals. Launched Saudi Arabia's first 'No Pre-Approvals' health insurance program in 2025.",
+    editorialSource: "GlobeNewswire / ANB Capital 2025",
   },
   {
     id: "sa-tawuniya",
@@ -62,7 +62,7 @@ export const plansMiddleEast: InsurancePlan[] = [
     monthlyPremium: "SAR 700 - SAR 1,800",
     deductible: "SAR 300 - SAR 1,500",
     coverageType: "premium",
-    badges: ["Best Value", "Top Rated"],
+    badges: ["Fitch A Positive","Largest Saudi Insurer by GWP","92% Combined Ratio"],
     highlights: [
       "Strong government and semi-government employee plans",
       "Rapid claims settlement track record",
@@ -95,8 +95,8 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Tawuniya's long market presence and government partnerships make it a reliable choice for Saudi residents seeking dependable coverage.",
-    editorialSource: "Saudi Insurance Market Report 2025",
+      "Largest Saudi insurer by total GWP with Fitch A/Positive rating. Non-life combined ratio improved to ~92% in H1 2024. Won Saudi Arabian Airlines health contract Feb 2025.",
+    editorialSource: "Fitch Ratings / Argaam 2024",
   },
   {
     id: "sa-medgulf",
@@ -353,7 +353,7 @@ export const plansMiddleEast: InsurancePlan[] = [
     monthlyPremium: "BHD 55 - BHD 180",
     deductible: "BHD 20 - BHD 80",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Most Popular"],
+    badges: ["Bahrain Market Leader","NHRA Regulated"],
     highlights: [
       "Compliant with Bahrain's National Health Regulatory Authority",
       "Access to Bupa's global network for international travel",
@@ -386,7 +386,7 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Bupa Bahrain remains the market leader with best-in-class service and a plan that exceeds the country's mandatory coverage requirements.",
+      "Leading health insurer in Bahrain. Plan exceeds the country's mandatory coverage requirements. Mandatory health insurance scheme fully launched 2024 for citizens.",
     editorialSource: "GCC Health Insurance Rankings 2025",
   },
   {
@@ -547,7 +547,7 @@ export const plansMiddleEast: InsurancePlan[] = [
     monthlyPremium: "ILS 180 - ILS 520",
     deductible: "ILS 0 - ILS 500",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Top Rated", "Most Popular"],
+    badges: ["Fastest Growing Israeli HMO","Net Membership Leader Since 2015"],
     highlights: [
       "Supplement to Israel's mandatory National Health Insurance",
       "Access to leading private specialists and private hospitals",
@@ -580,8 +580,8 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Maccabi Gold is the benchmark supplemental plan in Israel, reducing wait times for specialists and covering treatments not included in the national basket.",
-    editorialSource: "Israel Healthcare Consumer Report 2025",
+      "2nd-largest of Israel's four statutory HMOs with 2M+ members (~25% share). Led in net membership transfers since 2015, gaining the most new members of any Israeli HMO.",
+    editorialSource: "Taub Center for Social Policy Studies 2024",
   },
   {
     id: "il-clalit",
@@ -595,7 +595,7 @@ export const plansMiddleEast: InsurancePlan[] = [
     monthlyPremium: "ILS 150 - ILS 450",
     deductible: "ILS 0 - ILS 300",
     coverageType: "premium",
-    badges: ["Largest Network", "Best Value"],
+    badges: ["Israel's Largest HMO","52% Market Share","5M Members"],
     highlights: [
       "Largest HMO network in Israel with over 5,000 physicians",
       "Affordable supplemental plan for Clalit members",
@@ -628,8 +628,8 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Clalit Mushlam is the supplemental plan of choice for millions of Israelis, combining affordability with a vast clinical network.",
-    editorialSource: "Israeli Health System Performance Report 2025",
+      "Largest HMO in Israel and one of the largest in the world with ~52% market share and 5 million members. Uses data science for proactive healthcare innovation.",
+    editorialSource: "Taub Center / Jerusalem Post 2024",
   },
   {
     id: "il-meuhedet",
@@ -784,12 +784,12 @@ export const plansMiddleEast: InsurancePlan[] = [
     country: "Lebanon",
     countryCode: "lb",
     logo: "/logos/allianz-sna.svg",
-    rating: 4.1,
+    rating: 4.3,
     reviewCount: 2215,
     monthlyPremium: "LBP 1,800,000 - LBP 5,500,000",
     deductible: "LBP 500,000 - LBP 2,000,000",
     coverageType: "premium",
-    badges: ["Most Popular", "Best for Professionals"],
+    badges: ["#1 Lebanon by Revenue","Allianz Group","60+ Years Operating"],
     highlights: [
       "Operates despite Lebanon's economic challenges",
       "Covers hospitalisation at leading Beirut hospitals",
@@ -822,8 +822,8 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Allianz SNA remains the most dependable private health insurer in Lebanon, navigating the country's economic crisis with USD-linked plan structures.",
-    editorialSource: "Lebanon Insurance Monitor 2025",
+      "#1 insurer in Lebanon by revenue (USD 80.3M). Operating since 1963 as fully owned Allianz subsidiary. 147,000+ clients, 17 offices.",
+    editorialSource: "ZoomInfo / Atlas Mag Lebanon 2026",
   },
   {
     id: "lb-arope-insurance",
@@ -1074,12 +1074,12 @@ export const plansMiddleEast: InsurancePlan[] = [
     country: "Turkey",
     countryCode: "tr",
     logo: "/logos/acibadem.svg",
-    rating: 4.7,
+    rating: 4.4,
     reviewCount: 11230,
     monthlyPremium: "TRY 3,500 - TRY 9,500",
     deductible: "TRY 500 - TRY 3,000",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Top Rated", "Best Hospital Network"],
+    badges: ["#1 Corporate PMI Turkey 27%","Bupa Group","Only Pure Health Specialist"],
     highlights: [
       "Direct access to Acibadem's world-class hospital group",
       "Comprehensive coverage including dental and vision",
@@ -1112,8 +1112,8 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Acibadem Sigorta Premium Health is the gold standard in Turkish private health insurance, combining world-class hospitals with genuinely comprehensive benefits.",
-    editorialSource: "Turkey Health Insurance Market Leader Report 2025",
+      "Turkey's only insurance company specializing solely in health insurance. Holds 27% GWP market share in corporate PMI — the largest. ~986,000 customers. Acquired by Bupa 2019.",
+    editorialSource: "Mordor Intelligence / Bupa Group 2024",
   },
   {
     id: "tr-allianz-turkey",
@@ -1122,12 +1122,12 @@ export const plansMiddleEast: InsurancePlan[] = [
     country: "Turkey",
     countryCode: "tr",
     logo: "/logos/allianz-turkey.svg",
-    rating: 4.4,
+    rating: 4.2,
     reviewCount: 8760,
     monthlyPremium: "TRY 2,800 - TRY 7,500",
     deductible: "TRY 400 - TRY 2,000",
     coverageType: "premium",
-    badges: ["Most Popular", "Best for Expats"],
+    badges: ["Top 5 Turkey Overall"],
     highlights: [
       "Backed by Allianz global network for international coverage",
       "Wide panel of 1,800+ contracted hospitals across Turkey",
@@ -1160,8 +1160,8 @@ export const plansMiddleEast: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Allianz Turkey Sağlık Plus combines global insurance expertise with an extensive local network, making it the top choice for Turkey's expatriate community.",
-    editorialSource: "Turkey Insurance Association Market Review 2025",
+      "Top 5 overall insurer in Turkey. Among five companies contributing 60%+ of the health insurance market value.",
+    editorialSource: "Atlas Mag Turkey 2024 / Mordor Intelligence",
   },
   {
     id: "tr-axa-sigorta",

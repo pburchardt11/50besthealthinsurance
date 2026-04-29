@@ -396,11 +396,11 @@ export const originalPlans: InsurancePlan[] = [
     countryCode: "uk",
     logo: "/logos/bupa.svg",
     rating: 4.5,
-    reviewCount: 8234,
+    reviewCount: 41406,
     monthlyPremium: "£80 - £250",
     deductible: "£0 - £500",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Best Overall UK", "Most Trusted"],
+    badges: ["Provider of the Year 2024","Largest UK Network","Best Individual & Group PMI"],
     highlights: [
       "Largest private healthcare provider in UK",
       "Direct access to specialists",
@@ -433,8 +433,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Bupa remains the gold standard in UK private health insurance, with the broadest network and most comprehensive coverage options.",
-    editorialSource: "Which? Health Insurance Guide 2025",
+      "Bupa swept the 2024 Health & Protection Awards winning Provider of the Year, Best Individual and Best Group Health Insurance Provider. The largest hospital network in the UK with 35% market share.",
+    editorialSource: "UK Health & Protection Awards 2024",
   },
   {
     id: "uk-axa",
@@ -443,12 +443,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Kingdom",
     countryCode: "uk",
     logo: "/logos/axa.svg",
-    rating: 4.3,
-    reviewCount: 5678,
+    rating: 4.1,
+    reviewCount: 19489,
     monthlyPremium: "£60 - £200",
     deductible: "£0 - £250",
     coverageType: "premium",
-    badges: ["Best Value UK", "Best Mental Health"],
+    badges: ["Fairer Finance Silver","25% Market Share"],
     highlights: [
       "Competitive pricing",
       "Strong mental health support",
@@ -481,8 +481,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "AXA Health offers some of the best value in UK private health insurance, especially for mental health coverage.",
-    editorialSource: "MoneySuperMarket Insurance Awards 2025",
+      "AXA Health's modular 'building blocks' approach to coverage is structurally unique in the UK market. Holds 5 Defaqto stars for Personal Health plans and Fairer Finance Silver status.",
+    editorialSource: "Defaqto / Fairer Finance 2025",
   },
   {
     id: "uk-vitality",
@@ -491,12 +491,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Kingdom",
     countryCode: "uk",
     logo: "/logos/vitality.svg",
-    rating: 4.4,
-    reviewCount: 6543,
+    rating: 3.8,
+    reviewCount: 63475,
     monthlyPremium: "£70 - £220",
     deductible: "£0 - £500",
     coverageType: "premium",
-    badges: ["Most Innovative", "Best Wellness Rewards"],
+    badges: ["Best Wellness Rewards","Defaqto 5 Star 10+ Years"],
     highlights: [
       "Wellness rewards program",
       "Discounts for healthy living",
@@ -529,8 +529,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Vitality's innovative rewards program makes it unique in the UK market, genuinely incentivizing healthier lifestyles.",
-    editorialSource: "The Telegraph Best Health Insurance 2025",
+      "Vitality has the lowest customer score of PMI providers in Which?'s April 2025 survey (53%), but remains the top pick for rewards-for-healthy-living. Defaqto 5-star rated for 10+ consecutive years.",
+    editorialSource: "Which? April 2025 / Defaqto",
   },
   {
     id: "uk-aviva",
@@ -539,12 +539,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Kingdom",
     countryCode: "uk",
     logo: "/logos/aviva.svg",
-    rating: 4.2,
-    reviewCount: 4567,
+    rating: 4,
+    reviewCount: 51954,
     monthlyPremium: "£55 - £180",
     deductible: "£0 - £500",
     coverageType: "standard",
-    badges: ["Most Affordable UK", "Best Family Plans"],
+    badges: ["Defaqto 5 Star","Best Diversity Strategy 2024"],
     highlights: [
       "Most affordable major insurer",
       "Family-friendly plans",
@@ -577,8 +577,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Aviva strikes the best balance between affordability and coverage in the UK market, especially for families.",
-    editorialSource: "Compare the Market Awards 2025",
+      "Defaqto awarded Aviva's flagship products their highest 5-Star rating. The MyHealthCounts wellness programme gives policyholders more ways to reduce premiums than any other assessed insurer.",
+    editorialSource: "Defaqto 2025 / UK Health & Protection Awards 2024",
   },
   {
     id: "uk-wpa",
@@ -587,12 +587,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Kingdom",
     countryCode: "uk",
     logo: "/logos/wpa.svg",
-    rating: 4.6,
-    reviewCount: 2345,
+    rating: 4.7,
+    reviewCount: 5112,
     monthlyPremium: "£90 - £300",
     deductible: "£0 - £250",
     coverageType: "comprehensive",
-    badges: ["Best Customer Service UK", "Premium Choice"],
+    badges: ["Which? Recommended Provider","Best Customer Service UK","Moneyfacts Best PMI 2025"],
     highlights: [
       "Highest customer satisfaction",
       "Not-for-profit insurer",
@@ -625,8 +625,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "WPA's not-for-profit model delivers consistently superior customer service and claims handling experience.",
-    editorialSource: "Defaqto Expert Ratings 2025",
+      "WPA achieved an outstanding 82% Claims Score in Which?'s April 2025 survey, significantly surpassing the industry average of 72%. Since 2021, WPA has held the highest Trustpilot rating of any UK health insurer.",
+    editorialSource: "Which? April 2025 / Moneyfacts Awards 2025",
   },
   {
     id: "uk-freedom",
@@ -635,7 +635,7 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Kingdom",
     countryCode: "uk",
     logo: "/logos/freedom.svg",
-    rating: 4.0,
+    rating: 3.6,
     reviewCount: 1234,
     monthlyPremium: "£45 - £150",
     deductible: "£100 - £500",
@@ -673,7 +673,7 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Freedom provides a solid entry point into private health insurance for budget-conscious consumers.",
+      "Freedom provides a solid entry point into private health insurance for budget-conscious consumers seeking basic hospital coverage.",
     editorialSource: "Money.co.uk Insurance Comparison 2025",
   },
 
@@ -685,12 +685,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Germany",
     countryCode: "de",
     logo: "/logos/tk.svg",
-    rating: 4.7,
+    rating: 4.8,
     reviewCount: 15678,
     monthlyPremium: "€180 - €450",
     deductible: "€0",
     coverageType: "comprehensive",
-    badges: ["#1 in Germany", "Editor's Choice", "Best Digital"],
+    badges: ["#1 Germany 10 Consecutive Years","Focus Money Exzellent","Handelsblatt Exzellent"],
     highlights: [
       "Largest public health insurer in Germany",
       "Lowest additional contribution rate",
@@ -723,8 +723,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "TK has been voted Germany's best health insurance fund for 15 consecutive years, setting the standard for digital healthcare.",
-    editorialSource: "Focus Money Krankenkassen-Test 2025",
+      "TK has been ranked Germany's best nationally-open statutory health insurance fund by Focus Money for the tenth consecutive year (2026), achieving 'Exzellent' for price-performance and 85.2/100 from DFSI.",
+    editorialSource: "Focus Money 2026 / DFSI 2025-26 / Handelsblatt 2025",
   },
   {
     id: "de-aok",
@@ -738,7 +738,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "€190 - €460",
     deductible: "€0",
     coverageType: "comprehensive",
-    badges: ["Best Regional Coverage", "Family Friendly"],
+    badges: ["Best Regional Fund 2026","DFSI AA+","Handelsblatt Exzellent"],
     highlights: [
       "Strong regional presence",
       "Excellent family programs",
@@ -771,8 +771,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "AOK's regional expertise and family programs make it a strong choice for families seeking personalized healthcare support.",
-    editorialSource: "Stiftung Warentest Krankenkassen 2025",
+      "AOK Rheinland-Pfalz/Saarland topped the regional fund category in Focus Money 2026 and earned AA+ 'Sehr Gut (1.4)' from DFSI with the highest performance score (90.3) among all listed funds.",
+    editorialSource: "Focus Money 2026 / DFSI 2025-26 / Handelsblatt 2025",
   },
   {
     id: "de-debeka",
@@ -781,12 +781,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Germany",
     countryCode: "de",
     logo: "/logos/debeka.svg",
-    rating: 4.5,
+    rating: 4.6,
     reviewCount: 7654,
     monthlyPremium: "€350 - €800",
     deductible: "€0 - €1,200",
     coverageType: "comprehensive",
-    badges: ["Best Private Insurance DE", "Top Rated PKV"],
+    badges: ["Franke & Bornberg mmm+","Assekurata Exzellent","Best Price-Performance PKV"],
     highlights: [
       "Top-rated private health insurer",
       "Chief physician treatment",
@@ -819,8 +819,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Debeka consistently achieves top ratings for private health insurance in Germany, with particularly stable premiums over time.",
-    editorialSource: "Franke und Bornberg PKV-Rating 2025",
+      "Debeka received top 'mmm+' (Outstanding) from both Franke und Bornberg and map-report in 2024, scoring 85.70 points. Kundenmonitor confirms it offers the best price-performance ratio in private health insurance.",
+    editorialSource: "Franke und Bornberg 2024 / Assekurata / ntv Fairness-Preis 2025",
   },
   {
     id: "de-allianz",
@@ -834,7 +834,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "€380 - €850",
     deductible: "€0 - €1,500",
     coverageType: "premium",
-    badges: ["Global Brand", "Best International DE"],
+    badges: ["Franke & Bornberg FFF+","Global Brand"],
     highlights: [
       "Global insurance brand",
       "Worldwide coverage included",
@@ -867,8 +867,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Allianz leverages its global network to offer private health insurance with unmatched international coverage options.",
-    editorialSource: "Handelsblatt Versicherungstest 2025",
+      "Allianz holds the top 'FFF+' tariff rating from Franke und Bornberg and leads the 'mmm' (Very Good) company-level group with 83.80 points in 2024.",
+    editorialSource: "Franke und Bornberg PKV Rating 2024",
   },
   {
     id: "de-barmer",
@@ -882,7 +882,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "€185 - €455",
     deductible: "€0",
     coverageType: "comprehensive",
-    badges: ["Best Preventive Programs", "Innovation Leader"],
+    badges: ["Handelsblatt Sehr Gut","Exzellent Bonus Program","Most Branches Nationwide"],
     highlights: [
       "Strong preventive health programs",
       "Digital health innovations",
@@ -915,8 +915,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "BARMER leads in preventive health innovation and has been recognized for its commitment to digital health transformation.",
-    editorialSource: "DFSI Krankenkassen-Rating 2025",
+      "BARMER earned 'Sehr Gut' in the Handelsblatt 2025 service rating and leads all nationwide health funds with 348 branch locations. Its bonus programme received the 'Exzellent' designation.",
+    editorialSource: "Handelsblatt 2025 / DFSI 2024",
   },
   {
     id: "de-dak",
@@ -930,7 +930,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "€195 - €470",
     deductible: "€0",
     coverageType: "standard",
-    badges: ["Best for Young Professionals"],
+    badges: ["Handelsblatt Exzellent","Best Bonus Programme","DFSI Hervorragend"],
     highlights: [
       "Good for young professionals",
       "Online coaching programs",
@@ -963,8 +963,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "DAK's focus on young professionals and digital health programs makes it a solid choice for career-oriented individuals.",
-    editorialSource: "Euro am Sonntag Krankenkassen 2025",
+      "Handelsblatt awarded DAK-Gesundheit 'Exzellent' in its 2025 service rating. Its bonus programme scored 'Hervorragend' (Outstanding) in DFSI testing — Germany's only fund offering early warning for media addiction in children.",
+    editorialSource: "Handelsblatt 2025 / DFSI 2024",
   },
 
   // UAE
@@ -1943,12 +1943,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "France",
     countryCode: "fr",
     logo: "/logos/axa.svg",
-    rating: 4.3,
+    rating: 4,
     reviewCount: 6789,
     monthlyPremium: "€50 - €180",
     deductible: "€0",
     coverageType: "comprehensive",
-    badges: ["#1 in France", "Best Overall FR"],
+    badges: ["Top 5 France","#3 by Revenue"],
     highlights: [
       "France's largest health insurer",
       "Comprehensive complementary coverage",
@@ -1981,8 +1981,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "AXA dominates the French mutuelle market with the most comprehensive complementary coverage options available.",
-    editorialSource: "Que Choisir Assurance Santé 2025",
+      "AXA France is the 3rd-largest health insurer by revenue (€3.57B) and consistently ranked among the Top 5 best health insurance contracts for balanced coverage. Up to 400% BRSS reimbursement for major procedures.",
+    editorialSource: "reassurez-moi.fr / meilleurtaux.com 2025",
   },
   {
     id: "fr-harmonie",
@@ -1991,12 +1991,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "France",
     countryCode: "fr",
     logo: "/logos/harmonie.svg",
-    rating: 4.4,
-    reviewCount: 5432,
+    rating: 4.5,
+    reviewCount: 4891,
     monthlyPremium: "€40 - €150",
     deductible: "€0",
     coverageType: "premium",
-    badges: ["Best Mutuelle", "Best Value FR"],
+    badges: ["#1 UFC-Que Choisir","Best Value France","€3B+ Revenue"],
     highlights: [
       "Largest mutual health insurer",
       "Excellent value",
@@ -2029,8 +2029,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Harmonie Mutuelle offers the best balance of coverage and cost in the French complementary health insurance market.",
-    editorialSource: "60 Millions de Consommateurs 2025",
+      "Harmonie Mutuelle tops the UFC-Que Choisir / Observatoire de l'Assurance ranking with 18.5/20, recognised for customizable options and the most cost-effective coverage for single adults in France.",
+    editorialSource: "UFC-Que Choisir 2024 / Observatoire de l'Assurance",
   },
   {
     id: "fr-alan",
@@ -2039,12 +2039,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "France",
     countryCode: "fr",
     logo: "/logos/alan.svg",
-    rating: 4.5,
+    rating: 4.3,
     reviewCount: 3456,
     monthlyPremium: "€45 - €160",
     deductible: "€0",
     coverageType: "premium",
-    badges: ["Most Innovative FR", "Best Digital FR", "Rising Star"],
+    badges: ["Best Digital France","Goodassur Meilleure Mutuelle 2025","Rising Star"],
     highlights: [
       "100% digital health insurer",
       "Instant reimbursements",
@@ -2077,8 +2077,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Alan has revolutionized French health insurance with its fully digital model, instant reimbursements, and transparent pricing.",
-    editorialSource: "Les Echos Innovation Santé 2025",
+      "Alan is France's leading insurtech, rated 4.0/5 on Opinion Assurances — significantly ahead of traditional mutuelles. Named 'Meilleure Mutuelle 2025' by Goodassur for its 100% digital approach and near-instant reimbursements.",
+    editorialSource: "Goodassur 2025 / Opinion Assurances / L'Argus de l'Assurance 2024",
   },
   {
     id: "fr-generali",
@@ -2087,12 +2087,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "France",
     countryCode: "fr",
     logo: "/logos/generali.svg",
-    rating: 4.1,
+    rating: 3.8,
     reviewCount: 4567,
     monthlyPremium: "€45 - €170",
     deductible: "€0",
     coverageType: "standard",
-    badges: ["Best Wellness FR"],
+    badges: ["Top 5 Balanced Coverage"],
     highlights: [
       "Vitality wellness program",
       "International brand",
@@ -2125,8 +2125,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Generali's Vitality program brings a unique wellness dimension to French complementary health insurance.",
-    editorialSource: "Le Figaro Santé Insurance Guide 2025",
+      "Generali is consistently ranked in the Top 5 health insurance contracts for balanced coverage. Its intermediate plan reimburses up to 100% of actual medical fees with loyalty bonuses across many care types.",
+    editorialSource: "reassurez-moi.fr / goodassur.com 2025",
   },
   {
     id: "fr-malakoff",
@@ -2135,12 +2135,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "France",
     countryCode: "fr",
     logo: "/logos/malakoff.svg",
-    rating: 4.0,
+    rating: 3.7,
     reviewCount: 3890,
     monthlyPremium: "€42 - €155",
     deductible: "€0",
     coverageType: "standard",
-    badges: ["Best Employer Plans FR"],
+    badges: ["Brand of the Year 2026","Top 10 UFC-Que Choisir"],
     highlights: [
       "Leading employer group insurer",
       "Strong social protection",
@@ -2173,8 +2173,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Malakoff Humanis excels in collective health insurance for French employers, with competitive group rates.",
-    editorialSource: "L'Argus de l'Assurance 2025",
+      "Malakoff Humanis ranked 10th in the UFC-Que Choisir composite ranking with 14.9/20 and won Brand of the Year 2026 for its Pack Santé Particuliers. Strong family and senior packages with the Kalixia care network.",
+    editorialSource: "UFC-Que Choisir 2024 / Superbrands 2026",
   },
 
   // Japan

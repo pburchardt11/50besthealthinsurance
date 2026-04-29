@@ -975,12 +975,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Arab Emirates",
     countryCode: "ae",
     logo: "/logos/daman.svg",
-    rating: 4.4,
+    rating: 4.5,
     reviewCount: 4567,
     monthlyPremium: "AED 500 - AED 2,000",
     deductible: "AED 0 - AED 500",
     coverageType: "comprehensive",
-    badges: ["#1 in UAE", "Government Backed"],
+    badges: ["Frost & Sullivan #1 Satisfaction","Best Perceived Brand UAE","Government Backed"],
     highlights: [
       "Largest health insurer in UAE",
       "Government-backed",
@@ -1013,8 +1013,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "As the government-backed national insurer, Daman provides the most reliable and comprehensive coverage in Abu Dhabi.",
-    editorialSource: "Gulf News Health Insurance Guide 2025",
+      "Ranked #1 in customer satisfaction among UAE insurers for claim settlement speed by Frost & Sullivan 2024. Best perceived health insurance brand in the UAE (Brand Finance). 3+ million members across 2,000+ providers.",
+    editorialSource: "Frost & Sullivan 2024 / Brand Finance / NAFIS Awards 2025",
   },
   {
     id: "ae-cigna-global",
@@ -1023,12 +1023,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Arab Emirates",
     countryCode: "ae",
     logo: "/logos/cigna.svg",
-    rating: 4.5,
-    reviewCount: 3456,
+    rating: 4,
+    reviewCount: 3532,
     monthlyPremium: "AED 800 - AED 3,500",
     deductible: "AED 0 - AED 2,000",
     coverageType: "comprehensive",
-    badges: ["Best Expat Coverage", "Best International"],
+    badges: ["Trustpilot 4.0/5","DHA Approved","Platinum Unlimited Coverage"],
     highlights: [
       "Global coverage for expats",
       "Direct billing worldwide",
@@ -1061,8 +1061,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Cigna Global remains the top choice for UAE expats seeking comprehensive worldwide coverage with direct billing.",
-    editorialSource: "ExpatFocus Insurance Rankings 2025",
+      "Comprehensive international coverage with Trustpilot 4.0/5 (3,532 reviews). Claims processed in 5 working days average. 24/7 multilingual support. DHA-approved plans with tiers up to unlimited Platinum coverage.",
+    editorialSource: "Trustpilot / ExpatDen 2025",
   },
   {
     id: "ae-oman-insurance",
@@ -1071,12 +1071,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Arab Emirates",
     countryCode: "ae",
     logo: "/logos/oman-ins.svg",
-    rating: 4.2,
+    rating: 4.3,
     reviewCount: 2345,
     monthlyPremium: "AED 400 - AED 1,800",
     deductible: "AED 0 - AED 500",
     coverageType: "premium",
-    badges: ["Best Local Network"],
+    badges: ["Moody's A2","AM Best A","NAFIS #1 2025","MENA II Highly Commended"],
     highlights: [
       "Strong local network",
       "Good value plans",
@@ -1109,8 +1109,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Oman Insurance offers excellent value within the UAE, particularly strong for those who don't need international coverage.",
-    editorialSource: "Insurance Business Middle East 2025",
+      "Rebranded as Sukoon, holds Moody's A2 and AM Best A (Excellent) ratings. Won NAFIS Awards 1st Place 2025. MENA II 2025 Highly Commended for Health Insurer. 800,000+ policyholders across 3,000+ providers worldwide.",
+    editorialSource: "Moody's August 2025 / AM Best / MENA II Awards 2025",
   },
   {
     id: "ae-axa-gulf",
@@ -1119,12 +1119,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Arab Emirates",
     countryCode: "ae",
     logo: "/logos/axa.svg",
-    rating: 4.3,
+    rating: 4.4,
     reviewCount: 2890,
     monthlyPremium: "AED 600 - AED 2,500",
     deductible: "AED 0 - AED 1,000",
     coverageType: "premium",
-    badges: ["Best Claims Process"],
+    badges: ["MENA II Health Insurer of Year 2025","AM Best A Excellent","3x Award Winner"],
     highlights: [
       "Efficient claims processing",
       "Global brand backing",
@@ -1157,8 +1157,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "AXA Gulf combines global insurance expertise with strong local service, particularly excelling in claims efficiency.",
-    editorialSource: "Arabian Business Insurance Awards 2025",
+      "Now GIG Gulf — won MENA II Health Insurer of the Year for the third time (2022, 2023, 2025). AM Best A (Excellent) rating affirmed for 2nd consecutive year. DHIC Preferred Insurance status in Dubai.",
+    editorialSource: "MENA Intelligent Insurer Awards 2025 / AM Best 2025",
   },
   {
     id: "ae-metlife",
@@ -1167,12 +1167,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "United Arab Emirates",
     countryCode: "ae",
     logo: "/logos/metlife.svg",
-    rating: 4.1,
+    rating: 4,
     reviewCount: 1987,
     monthlyPremium: "AED 500 - AED 2,200",
     deductible: "AED 0 - AED 750",
     coverageType: "standard",
-    badges: ["Best Group Plans UAE"],
+    badges: ["MENA Health Insurer of Year 2020","65+ Years in Middle East","Fortune Most Admired"],
     highlights: [
       "Strong group/employer plans",
       "Good wellness programs",
@@ -1205,8 +1205,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "MetLife excels in group health insurance for UAE employers, offering competitive plans with strong wellness components.",
-    editorialSource: "MENA Insurance Review 2025",
+      "65+ years in the Middle East. Won MENA Health Insurer of the Year 2020 and MENA IR Insurer of the Year 2021. Life Insurance Company of the Year at MEII Awards 5 times (2014-2019). Fortune World's Most Admired Companies.",
+    editorialSource: "MetLife UAE Awards / MENA IR Awards 2021",
   },
 
   // Singapore
@@ -1217,12 +1217,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Singapore",
     countryCode: "sg",
     logo: "/logos/aia.svg",
-    rating: 4.5,
+    rating: 4.8,
     reviewCount: 6789,
     monthlyPremium: "SGD 200 - SGD 600",
     deductible: "SGD 0 - SGD 3,500",
     coverageType: "comprehensive",
-    badges: ["Best Shield Plan", "Top Rated SG"],
+    badges: ["#1 Editorial Rank SG","Longest Pre/Post Hospitalization","Zero Co-Payment"],
     highlights: [
       "Top-rated Integrated Shield Plan",
       "Private hospital coverage",
@@ -1255,8 +1255,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "AIA's HealthShield Gold Max consistently ranks as one of the best Integrated Shield Plans in Singapore.",
-    editorialSource: "MoneySmart Singapore Insurance Guide 2025",
+      "AIA HealthShield Gold Max ranked #1 by healthinsurance.com.sg (4.8/5) with the longest pre- and post-hospitalization benefit in Singapore — up to 13 months. Zero co-payment on all tiers is unique among ISPs.",
+    editorialSource: "healthinsurance.com.sg 2025 / Seedly (4.2/5, 21 reviews)",
   },
   {
     id: "sg-prudential",
@@ -1270,7 +1270,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "SGD 180 - SGD 550",
     deductible: "SGD 0 - SGD 3,500",
     coverageType: "comprehensive",
-    badges: ["Best Coverage Limits", "Editor's Pick SG"],
+    badges: ["MOH #1 Customer Satisfaction 3 Years","Lowest ISP Premiums","Same-Day Claims"],
     highlights: [
       "Highest coverage limits",
       "No lifetime cap",
@@ -1303,8 +1303,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "PRUShield Premier stands out for its industry-leading coverage limits and no lifetime cap on claims.",
-    editorialSource: "SingSaver Insurance Comparison 2025",
+      "MOH-verified #1 Customer Satisfaction for ISP insurers for 3 consecutive years. Only insurer with 75th-percentile claims processing of 0 days (same-day). Lowest premiums among major ISPs from S$78/month.",
+    editorialSource: "MOH Service Indicator / Seedly (3.8/5, 26 reviews) / S&P AA-",
   },
   {
     id: "sg-great-eastern",
@@ -1313,12 +1313,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Singapore",
     countryCode: "sg",
     logo: "/logos/great-eastern.svg",
-    rating: 4.3,
+    rating: 4.5,
     reviewCount: 4321,
     monthlyPremium: "SGD 170 - SGD 520",
     deductible: "SGD 0 - SGD 3,500",
     coverageType: "premium",
-    badges: ["Most Trusted SG", "Heritage Brand"],
+    badges: ["Seedly 4.5/5","365-Day Post-Hospitalization","Best Limit-to-Premium Ratio"],
     highlights: [
       "Singapore's oldest insurer",
       "Strong brand trust",
@@ -1351,8 +1351,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Great Eastern's heritage and reliability make it a trusted choice for Singaporeans seeking dependable health coverage.",
-    editorialSource: "The Straits Times Insurance Awards 2025",
+      "Highest Seedly community rating (4.5/5) among ISPs. Post-hospitalization coverage up to 365 days vs. 90-100 day cap of competitors. Highest annual limit-to-premium ratio in the Singapore market.",
+    editorialSource: "Seedly (4.5/5, 11 reviews) / healthinsurance.com.sg (4.7/5)",
   },
   {
     id: "sg-ntuc",
@@ -1361,12 +1361,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Singapore",
     countryCode: "sg",
     logo: "/logos/ntuc.svg",
-    rating: 4.2,
+    rating: 4.4,
     reviewCount: 5678,
     monthlyPremium: "SGD 150 - SGD 480",
     deductible: "SGD 0 - SGD 3,500",
     coverageType: "standard",
-    badges: ["Best Value SG", "Most Affordable"],
+    badges: ["Most Reviewed ISP","Best Value Non-Private","Co-operative Insurer"],
     highlights: [
       "Most affordable Shield Plan",
       "Social enterprise insurer",
@@ -1399,8 +1399,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "NTUC Income provides the best value Integrated Shield Plan for budget-conscious Singaporeans.",
-    editorialSource: "Seedly Insurance Comparison 2025",
+      "Largest community review base in Singapore (311 Seedly reviews) — the most widely discussed ISP among consumers. Co-operative structure means member-focused pricing. Best value for Class B and below ward cover.",
+    editorialSource: "Seedly (4.4/5, 311 reviews) / healthinsurance.com.sg (4.5/5)",
   },
   {
     id: "sg-raffles",
@@ -1409,12 +1409,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Singapore",
     countryCode: "sg",
     logo: "/logos/raffles.svg",
-    rating: 4.1,
+    rating: 4.5,
     reviewCount: 2345,
     monthlyPremium: "SGD 190 - SGD 570",
     deductible: "SGD 0 - SGD 3,500",
     coverageType: "premium",
-    badges: ["Best Hospital Network SG"],
+    badges: ["Seedly Verified","Agent Reliability 4.7/5","Raffles Hospital Network"],
     highlights: [
       "Raffles Hospital network",
       "Integrated care experience",
@@ -1447,8 +1447,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Raffles Shield uniquely integrates insurance with one of Southeast Asia's premier hospital networks.",
-    editorialSource: "Asia Insurance Review 2025",
+      "One of only two ISP providers with all Seedly rating subcategories at or above 4.4. Wholly owned by Raffles Medical Group, providing direct integration with Raffles Hospital and clinics network.",
+    editorialSource: "Seedly (4.5/5, 85 reviews)",
   },
 
   // Canada
@@ -1706,7 +1706,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "AUD 120 - AUD 450",
     deductible: "AUD 0 - AUD 750",
     coverageType: "comprehensive",
-    badges: ["#1 in Australia", "Most Members"],
+    badges: ["Canstar Outstanding Value 18 Years","7 State Awards 2025","Finder Highly Commended x4"],
     highlights: [
       "Australia's largest health insurer",
       "Comprehensive hospital + extras",
@@ -1739,8 +1739,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Medibank remains Australia's go-to private health insurer with the widest range of plans and hospital agreements.",
-    editorialSource: "Canstar Outstanding Value Awards 2025",
+      "Canstar Outstanding Value national award winner for an extraordinary 18 consecutive years (2008-2025). Won 7 state awards in 2025 and Finder Highly Commended in 4 categories including Gold Hospital.",
+    editorialSource: "Canstar 2025 / Finder Health Insurance Awards 2025",
   },
   {
     id: "au-bupa-au",
@@ -1754,7 +1754,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "AUD 110 - AUD 420",
     deductible: "AUD 0 - AUD 750",
     coverageType: "comprehensive",
-    badges: ["Best Extras Cover", "Best International AU"],
+    badges: ["Canstar Outstanding Value National","5 State Extras Awards","Best Extras Cover AU"],
     highlights: [
       "Strong extras coverage",
       "Global brand with local expertise",
@@ -1787,8 +1787,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Bupa's combination of owned hospitals and comprehensive extras cover makes it a premium choice in Australia.",
-    editorialSource: "Finder Insurance Awards 2025",
+      "Canstar Outstanding Value national award winner 2025. Particularly strong in Extras coverage, winning 5 state awards. Consistently strong results across hospital, extras and package policies.",
+    editorialSource: "Canstar 2025",
   },
   {
     id: "au-hcf",
@@ -1797,12 +1797,23 @@ export const originalPlans: InsurancePlan[] = [
     country: "Australia",
     countryCode: "au",
     logo: "/logos/hcf.svg",
-    rating: 4.5,
+    rating: 4.7,
     reviewCount: 5432,
     monthlyPremium: "AUD 100 - AUD 380",
     deductible: "AUD 0 - AUD 750",
     coverageType: "premium",
-    badges: ["Best Value AU", "Most Satisfied Members"],
+    badges: ["Canstar 10 Consecutive Years","WeMoney Insurer of Year 2025","88.5c per id: "au-hcf",
+    name: "HCF Health Insurance",
+    provider: "HCF",
+    country: "Australia",
+    countryCode: "au",
+    logo: "/logos/hcf.svg",
+    rating: 4.7,
+    reviewCount: 5432,
+    monthlyPremium: "AUD 100 - AUD 380",
+    deductible: "AUD 0 - AUD 750",
+    coverageType: "premium",
+    badges:  Returned"],
     highlights: [
       "Highest member satisfaction",
       "Not-for-profit value",
@@ -1835,8 +1846,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "HCF delivers the best combination of value and satisfaction in Australian private health insurance.",
-    editorialSource: "Choice Magazine Insurance Review 2025",
+      "Canstar Outstanding Value award winner for 10 consecutive years (2016-2025). WeMoney Health Insurer of the Year 2025. Returns 88.5 cents per premium dollar vs industry average of 84.4 cents. Australia's largest not-for-profit fund.",
+    editorialSource: "Canstar 2025 / WeMoney Insurance Awards 2025 / HCF Press Release",
   },
   {
     id: "au-nib",
@@ -1845,12 +1856,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Australia",
     countryCode: "au",
     logo: "/logos/nib.svg",
-    rating: 4.2,
+    rating: 4,
     reviewCount: 4321,
     monthlyPremium: "AUD 95 - AUD 370",
     deductible: "AUD 0 - AUD 750",
     coverageType: "standard",
-    badges: ["Best Digital AU", "Rising Star"],
+    badges: ["WeMoney Digital Insurer of Year 2025","Reader's Digest Gold Standard","Best App"],
     highlights: [
       "Strong digital experience",
       "Competitive pricing",
@@ -1883,8 +1894,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "nib's digital-first approach and competitive pricing make it increasingly popular with younger Australians.",
-    editorialSource: "Mozo Experts Choice Awards 2025",
+      "WeMoney Digital Health Insurer of the Year 2025. Industry-leading digital tools and app experience (Silver Award — App Design Awards). Reader's Digest Gold Standard Quality Service.",
+    editorialSource: "WeMoney 2025 / Reader's Digest Quality Service Awards",
   },
   {
     id: "au-ahm",
@@ -1893,12 +1904,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Australia",
     countryCode: "au",
     logo: "/logos/ahm.svg",
-    rating: 4.0,
+    rating: 3.9,
     reviewCount: 3456,
     monthlyPremium: "AUD 80 - AUD 320",
     deductible: "AUD 250 - AUD 750",
     coverageType: "basic",
-    badges: ["Budget Pick AU"],
+    badges: ["WeMoney Best Value 2025","Budget Pick AU"],
     highlights: [
       "Most affordable major insurer",
       "Medibank network access",
@@ -1931,8 +1942,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "ahm provides an affordable entry point into private health insurance, ideal for young Australians avoiding the Medicare Levy Surcharge.",
-    editorialSource: "Finder Budget Insurance Awards 2025",
+      "WeMoney Best for Value 2025 winner — most price-competitive extras and hospital cover among reviewed funds. Budget arm of Medibank group with access to Medibank's hospital agreements.",
+    editorialSource: "WeMoney Insurance Awards 2025 / Canstar state Extras awards",
   },
 
   // France
@@ -2185,12 +2196,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Japan",
     countryCode: "jp",
     logo: "/logos/nippon.svg",
-    rating: 4.4,
+    rating: 4.7,
     reviewCount: 12345,
     monthlyPremium: "¥3,000 - ¥15,000",
     deductible: "¥0",
     coverageType: "comprehensive",
-    badges: ["#1 in Japan", "Most Trusted JP"],
+    badges: ["AM Best A+","JCR AA+","#1 Japan by Premium Income","Strongest BCAR"],
     highlights: [
       "Japan's largest life/health insurer",
       "Comprehensive medical insurance",
@@ -2223,8 +2234,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Nippon Life remains the gold standard in Japanese medical insurance, trusted by millions for comprehensive supplementary coverage.",
-    editorialSource: "Nikkei Insurance Rankings 2025",
+      "Japan's largest private life and medical insurer by premium income (~18.5% market share). AM Best rates balance sheet strength at 'Strongest' level with A+ (Superior) rating affirmed January 2025. JCR AA+/Stable.",
+    editorialSource: "AM Best January 2025 / JCR January 2025 / hayinsights.com",
   },
   {
     id: "jp-aflac",
@@ -2233,12 +2244,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Japan",
     countryCode: "jp",
     logo: "/logos/aflac.svg",
-    rating: 4.3,
+    rating: 4.6,
     reviewCount: 9876,
     monthlyPremium: "¥2,500 - ¥12,000",
     deductible: "¥0",
     coverageType: "premium",
-    badges: ["Best Cancer Insurance", "Innovation Leader JP"],
+    badges: ["#1 Cancer Insurance Japan","Ethisphere Most Ethical 18 Years","Moody's Aa3"],
     highlights: [
       "Pioneer in cancer insurance",
       "Affordable supplementary plans",
@@ -2271,8 +2282,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Aflac's cancer insurance products remain unmatched in Japan, with innovative coverage that has set industry standards.",
-    editorialSource: "Toyo Keizai Insurance Rankings 2025",
+      "Dominates cancer insurance with the most policies in force. Only Japanese insurer holding Aa3 from Moody's combined with AA+ from JCR. Named World's Most Ethical Company for 18 consecutive years by Ethisphere.",
+    editorialSource: "AM Best A+ / Moody's Aa3 / Ethisphere / Fortune Most Admired (23 years)",
   },
   {
     id: "jp-sompo",
@@ -2286,7 +2297,7 @@ export const originalPlans: InsurancePlan[] = [
     monthlyPremium: "¥2,800 - ¥13,000",
     deductible: "¥0",
     coverageType: "standard",
-    badges: ["Best Digital JP", "Best for Seniors"],
+    badges: ["Insurhealth Model Pioneer","Best Digital JP"],
     highlights: [
       "Digital health innovations",
       "Good senior care coverage",
@@ -2319,8 +2330,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Sompo Japan leads in digital health innovation and nursing care coverage, addressing Japan's demographic challenges.",
-    editorialSource: "Diamond Weekly Insurance Review 2025",
+      "Operates as a 'health support company' with the Insurhealth model — integrating insurance with preventive health functions. Known for fair and prompt claims settlement in Japan's competitive market.",
+    editorialSource: "Industry Analysis / S&P A+ (parent Sompo Holdings)",
   },
   {
     id: "jp-dai-ichi",
@@ -2329,12 +2340,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "Japan",
     countryCode: "jp",
     logo: "/logos/dai-ichi.svg",
-    rating: 4.1,
+    rating: 4.4,
     reviewCount: 5432,
     monthlyPremium: "¥3,200 - ¥14,000",
     deductible: "¥0",
     coverageType: "comprehensive",
-    badges: ["Best Financial Stability JP"],
+    badges: ["AM Best A+","JCR AA","#3 Japan Life Insurer","ESG Leader"],
     highlights: [
       "Strong financial ratings",
       "Comprehensive medical plans",
@@ -2367,8 +2378,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Dai-ichi Life's financial strength and comprehensive coverage make it a reliable choice for long-term medical insurance.",
-    editorialSource: "S&P Japan Insurance Ratings 2025",
+      "Japan's #3 private life insurer. AM Best assesses balance sheet strength as 'very strong' with A+ rating. Only publicly listed major Japanese life insurer on Tokyo Stock Exchange. ESG-forward governance.",
+    editorialSource: "AM Best / JCR AA/Stable January 2025",
   },
 
   // Brazil
@@ -2767,12 +2778,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "India",
     countryCode: "in",
     logo: "/logos/star.svg",
-    rating: 4.4,
+    rating: 4.1,
     reviewCount: 15678,
     monthlyPremium: "₹500 - ₹3,000",
     deductible: "₹0 - ₹25,000",
     coverageType: "comprehensive",
-    badges: ["#1 in India", "Best Health Insurer", "Most Trusted"],
+    badges: ["Largest Standalone Health Insurer","14,256 Network Hospitals"],
     highlights: [
       "India's largest standalone health insurer",
       "13,000+ network hospitals",
@@ -2805,8 +2816,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Star Health dominates India's health insurance market with the widest hospital network and fastest cashless claims processing.",
-    editorialSource: "IRDA Insurance Rankings 2025",
+      "India's largest standalone health insurer by market share with 14,256 cashless hospitals. CSR of 88.34% (FY2024-25) shows visible improvement but remains below the industry benchmark of 91.22%.",
+    editorialSource: "IRDAI Annual Report / Ditto Insurance 2025",
   },
   {
     id: "in-hdfc-ergo",
@@ -2815,12 +2826,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "India",
     countryCode: "in",
     logo: "/logos/hdfc.svg",
-    rating: 4.3,
+    rating: 4.7,
     reviewCount: 12345,
     monthlyPremium: "₹450 - ₹2,800",
     deductible: "₹0 - ₹20,000",
     coverageType: "comprehensive",
-    badges: ["Best Digital IN", "Innovation Leader"],
+    badges: ["CSR 97.45%","#4 by Claim Settlement","14,431 Network Hospitals"],
     highlights: [
       "Best digital health platform",
       "HDFC banking integration",
@@ -2853,8 +2864,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "HDFC ERGO leads India's digital health insurance transformation with innovative products and seamless online experiences.",
-    editorialSource: "Economic Times Insurance Awards 2025",
+      "Among the most stable insurers — CSR of 97.45% (FY2024-25), consistently above industry average for 3 consecutive years. Low complaints and wide hospital network. Rated 4.7/5 by Ditto (92 reviews).",
+    editorialSource: "IRDAI / Ditto Insurance (4.7/5, 92 reviews)",
   },
   {
     id: "in-icici-lombard",
@@ -2863,12 +2874,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "India",
     countryCode: "in",
     logo: "/logos/icici.svg",
-    rating: 4.2,
+    rating: 3.9,
     reviewCount: 9876,
     monthlyPremium: "₹400 - ₹2,500",
     deductible: "₹0 - ₹20,000",
     coverageType: "standard",
-    badges: ["Best Claims Process IN", "Trusted Brand"],
+    badges: ["Major Diversified Insurer","Financially Sustainable ICR"],
     highlights: [
       "Fast claims settlement",
       "ICICI banking network",
@@ -2901,8 +2912,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "ICICI Lombard's claims settlement speed and reliability make it one of India's most trusted health insurers.",
-    editorialSource: "Mint Insurance Rankings 2025",
+      "CSR of 85% (3-year average) — passable but not among the top 10 by claim settlement. Ranked 9th by Ditto. However, ICR of 82.24% signals strong financial sustainability for long-term policyholders.",
+    editorialSource: "IRDAI / Ditto Insurance Rankings 2025",
   },
   {
     id: "in-niva-bupa",
@@ -2911,12 +2922,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "India",
     countryCode: "in",
     logo: "/logos/niva-bupa.svg",
-    rating: 4.1,
+    rating: 4.3,
     reviewCount: 6543,
     monthlyPremium: "₹500 - ₹3,200",
     deductible: "₹0 - ₹30,000",
     coverageType: "premium",
-    badges: ["Best International IN", "Premium Choice"],
+    badges: ["CSR 92.39%","Unlimited Restoration","Premium Lock Innovation"],
     highlights: [
       "Bupa global expertise",
       "Premium plan options",
@@ -2949,8 +2960,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Niva Bupa brings global insurance expertise to India, offering some of the most comprehensive premium health plans available.",
-    editorialSource: "Business Standard Insurance Guide 2025",
+      "Feature-rich plans with innovations like unlimited restoration and Lock the Clock premium age-lock. CSR of 92.39% (FY2024-25) just above industry average. Ranked #5 among Indian health insurers by Ditto.",
+    editorialSource: "IRDAI / Ditto Insurance Review 2025",
   },
   {
     id: "in-care",
@@ -2959,12 +2970,12 @@ export const originalPlans: InsurancePlan[] = [
     country: "India",
     countryCode: "in",
     logo: "/logos/care.svg",
-    rating: 4.0,
+    rating: 4.2,
     reviewCount: 8765,
     monthlyPremium: "₹350 - ₹2,200",
     deductible: "₹0 - ₹15,000",
     coverageType: "standard",
-    badges: ["Best Value IN", "Best for Families"],
+    badges: ["CSR 96.74%","Top 4 Standalone Insurer","74.5L+ Claims Settled"],
     highlights: [
       "Affordable family plans",
       "No room rent limits on top plans",
@@ -2997,8 +3008,8 @@ export const originalPlans: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Care Health delivers excellent value in Indian health insurance, with competitive family plans and strong claims ratios.",
-    editorialSource: "PolicyBazaar Insurance Awards 2025",
+      "Reliable standalone health insurer with CSR of 96.74% (FY2024-25), well above the industry average. Over 74.5 lakh claims settled since 2012. Works best with advisory support due to service consistency concerns.",
+    editorialSource: "IRDAI / Ditto Insurance 2025",
   },
 
   // ── US additional plans (to reach 50) ──────────────────────────────────────

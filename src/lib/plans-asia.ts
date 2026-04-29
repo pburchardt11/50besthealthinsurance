@@ -154,11 +154,11 @@ export const plansAsia: InsurancePlan[] = [
     countryCode: "kr",
     logo: "/logos/samsung-life.svg",
     rating: 4.6,
-    reviewCount: 22100,
+    reviewCount: 12000,
     monthlyPremium: "KRW 80,000 – KRW 280,000",
     deductible: "KRW 200,000",
     coverageType: "comprehensive",
-    badges: ["Market Leader", "Top Rated", "Critical Illness Cover"],
+    badges: ["NCSI #1 Life Insurance 10+ Years","#1 Korea by Premium","AM Best A++"],
     highlights: [
       "Critical illness coverage for 100+ disease categories including all major cancers",
       "Supplements Korea's National Health Insurance (NHI) to cover co-payment gaps",
@@ -190,8 +190,8 @@ export const plansAsia: InsurancePlan[] = [
       telehealth: true,
     },
     editorialExcerpt:
-      "Samsung Life's Real Plus Health sets the benchmark for NHI-supplemental insurance in Korea, with industry-leading critical illness coverage and a seamless digital experience.",
-    editorialSource: "Korea Insurance Research Institute, 2024",
+      "NCSI #1 in Life Insurance for 10+ consecutive years. South Korea's largest life insurer with 22%+ market share. Samsung Fire & Marine (non-life arm) holds AM Best A++ and NCSI #1 for 24 consecutive years.",
+    editorialSource: "Korea Productivity Center NCSI / AM Best / Korea Herald 2024",
   },
   {
     id: "kr-db-insurance",

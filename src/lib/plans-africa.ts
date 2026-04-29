@@ -830,12 +830,12 @@ export const plansAfrica: InsurancePlan[] = [
     country: "Tanzania",
     countryCode: "tz",
     logo: "/logos/jubilee-tanzania.svg",
-    rating: 4.1,
+    rating: 4.3,
     reviewCount: 2760,
     monthlyPremium: "TZS 120,000 - TZS 400,000",
     deductible: "TZS 25,000 - TZS 100,000",
     coverageType: "premium",
-    badges: ["Editor's Choice", "Most Popular"],
+    badges: ["GCR A+ Tanzania","East Africa #1 Health Insurer"],
     highlights: [
       "East Africa's Jubilee brand with strong Tanzanian presence",
       "Covers Dar es Salaam's leading private hospitals",
@@ -868,8 +868,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Jubilee Insurance Tanzania is the leading private health insurer in the country, valued for its evacuation coverage and Dar es Salaam hospital network.",
-    editorialSource: "East Africa Insurance Review 2025",
+      "Holds GCR national scale A+ rating — highest in Tanzania. Part of East Africa's #1 composite insurer by premium volume.",
+    editorialSource: "GCR Ratings Aug 2024 / PacificPrime",
   },
   {
     id: "tz-nhif-tanzania",
@@ -927,12 +927,12 @@ export const plansAfrica: InsurancePlan[] = [
     country: "Rwanda",
     countryCode: "rw",
     logo: "/logos/mutuelle-rw.svg",
-    rating: 4.0,
+    rating: 4.5,
     reviewCount: 7240,
     monthlyPremium: "RWF 3,000 - RWF 10,000",
     deductible: "RWF 500 - RWF 2,000",
     coverageType: "basic",
-    badges: ["Government-Backed", "Most Accessible"],
+    badges: ["90%+ Population Coverage","Africa's UHC Model"],
     highlights: [
       "Rwanda's community-based health insurance covering 90%+ of population",
       "Tiered premium based on income level",
@@ -965,8 +965,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Rwanda's Mutuelle de Santé is Africa's most celebrated health insurance model, achieving near-universal coverage through a community-based, income-tiered approach.",
-    editorialSource: "WHO Rwanda Health Financing Report 2025",
+      "Africa's most-cited UHC success story, covering over 90% of the population through a government-run income-linked community health insurance scheme.",
+    editorialSource: "Borgen Project / KT Press 2026",
   },
   {
     id: "rw-radiant-insurance",
@@ -1029,7 +1029,7 @@ export const plansAfrica: InsurancePlan[] = [
     monthlyPremium: "UGX 200,000 - UGX 650,000",
     deductible: "UGX 50,000 - UGX 150,000",
     coverageType: "premium",
-    badges: ["Editor's Choice", "Most Popular"],
+    badges: ["GCR AA- Uganda","CIO 100 Award 2025","1.9M Clients"],
     highlights: [
       "Uganda's leading private health insurer",
       "Covers International Hospital Kampala and top private facilities",
@@ -1062,8 +1062,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Jubilee Uganda MediCare is the market-leading private health plan in Uganda, trusted by corporates and expatriates for its Kampala hospital network and evacuation coverage.",
-    editorialSource: "Uganda Insurance Commission Market Report 2025",
+      "Uganda's leading private health insurer with GCR AA- national rating. Won triple award at CIO 100 Awards 2025. Serving 1.9M clients across East Africa.",
+    editorialSource: "GCR Ratings / CIO 100 Awards 2025",
   },
   {
     id: "ug-aon-uganda",
@@ -1314,12 +1314,12 @@ export const plansAfrica: InsurancePlan[] = [
     country: "Cameroon",
     countryCode: "cm",
     logo: "/logos/activa-cameroon.svg",
-    rating: 4.0,
+    rating: 4.2,
     reviewCount: 1850,
     monthlyPremium: "XAF 25,000 - XAF 80,000",
     deductible: "XAF 5,000 - XAF 20,000",
     coverageType: "standard",
-    badges: ["Most Popular", "Local Leader"],
+    badges: ["#1 Private Health Cameroon"],
     highlights: [
       "Cameroon's leading private insurer with 30+ years of history",
       "Network covers Yaoundé and Douala private hospitals",
@@ -1351,8 +1351,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Activa Assurance is Cameroon's most trusted private health insurer, with decades of market leadership and a solid urban hospital network.",
-    editorialSource: "Central Africa Insurance Market Report 2025",
+      "Cameroon's most trusted private health insurer with decades of urban market leadership in Douala and Yaounde.",
+    editorialSource: "Nkafu Institute",
   },
   {
     id: "cm-nsia-cameroun",
@@ -1703,7 +1703,7 @@ export const plansAfrica: InsurancePlan[] = [
     monthlyPremium: "ZWL 150,000 - ZWL 450,000",
     deductible: "ZWL 20,000 - ZWL 80,000",
     coverageType: "comprehensive",
-    badges: ["Editor's Choice", "Most Popular"],
+    badges: ["#1 Private Medical Aid Zimbabwe"],
     highlights: [
       "Zimbabwe's largest medical aid society",
       "Covers Harare's best private hospitals including Parirenyatwa",
@@ -1736,8 +1736,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "CIMAS Premier is Zimbabwe's gold-standard medical aid plan, offering the widest benefits and largest hospital network in the country's private health sector.",
-    editorialSource: "Zimbabwe Medical Aid Market Report 2025",
+      "Zimbabwe's top private medical aid society, known for superior hospital access and claims efficiency — the preferred option for the corporate and professional market.",
+    editorialSource: "PMC / Statista",
   },
   {
     id: "zw-first-mutual-health",
@@ -2036,12 +2036,12 @@ export const plansAfrica: InsurancePlan[] = [
     country: "Mauritius",
     countryCode: "mu",
     logo: "/logos/swan-insurance-mu.svg",
-    rating: 4.1,
+    rating: 4.4,
     reviewCount: 2210,
     monthlyPremium: "MUR 2,800 - MUR 7,500",
     deductible: "MUR 800 - MUR 3,000",
     coverageType: "premium",
-    badges: ["Top Rated", "Best Value"],
+    badges: ["Founded 1855","Market Leader Mauritius"],
     highlights: [
       "Swan General Insurance Mauritius with 60-year history",
       "Wide access to Mauritius private clinics",
@@ -2073,8 +2073,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "Swan Insurance HealthCare is a trusted and dependable private health plan in Mauritius, backed by decades of local insurance expertise and strong corporate relationships.",
-    editorialSource: "Mauritius Consumer Financial Guide 2025",
+      "Established in 1855, Mauritius's oldest and most trusted insurer. Its Protect Health Insurance line is the benchmark private health product.",
+    editorialSource: "OpenPR / Atlas-Mag",
   },
 
   // Madagascar (MGA)
@@ -2277,12 +2277,12 @@ export const plansAfrica: InsurancePlan[] = [
     country: "Angola",
     countryCode: "ao",
     logo: "/logos/ensa-angola.svg",
-    rating: 3.8,
+    rating: 4.1,
     reviewCount: 1820,
     monthlyPremium: "AOA 35,000 - AOA 100,000",
     deductible: "AOA 5,000 - AOA 20,000",
     coverageType: "standard",
-    badges: ["Government-Backed", "Most Popular"],
+    badges: ["#1 Angola 27% Share","46 Years Market Leadership"],
     highlights: [
       "Angola's largest and oldest state-backed insurer",
       "Covers Luanda's main private hospitals and clinics",
@@ -2314,8 +2314,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "ENSA Angola is the most trusted name in Angolan insurance, providing the broadest health coverage network in a market dominated by oil sector corporate plans.",
-    editorialSource: "Angola Insurance Market Report 2025",
+      "Led Angola's insurance market for 46 years with ~27% market share and USD 163.8M in revenues.",
+    editorialSource: "Atlas-Mag / ZoomInfo",
   },
   {
     id: "ao-global-seguros",
@@ -2470,12 +2470,12 @@ export const plansAfrica: InsurancePlan[] = [
     country: "Malawi",
     countryCode: "mw",
     logo: "/logos/nico-life-malawi.svg",
-    rating: 3.8,
+    rating: 4.1,
     reviewCount: 1240,
     monthlyPremium: "MWK 80,000 - MWK 250,000",
     deductible: "MWK 10,000 - MWK 50,000",
     coverageType: "standard",
-    badges: ["Local Leader", "Most Popular"],
+    badges: ["#1 Market Malawi"],
     highlights: [
       "Malawi's largest insurance company by market share",
       "Covers Kamuzu Central Hospital and top Lilongwe private clinics",
@@ -2507,8 +2507,8 @@ export const plansAfrica: InsurancePlan[] = [
       telehealth: false,
     },
     editorialExcerpt:
-      "NICO Life is Malawi's most trusted private health insurer, with decades of experience serving both the corporate and NGO sectors across the country.",
-    editorialSource: "Malawi Insurance Market Report 2025",
+      "Malawi's largest insurer and domestic market anchor, providing the most accessible health and general insurance coverage.",
+    editorialSource: "Ken Research",
   },
   {
     id: "mw-old-mutual-malawi",

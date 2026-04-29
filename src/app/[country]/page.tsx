@@ -31,7 +31,10 @@ export default async function CountryPage({
   const country = getCountryByCode(code);
   if (!country) notFound();
 
-  const plans = getPlansByCountry(code);
+  const plans = getPlansByCountry(code).sort((a, b) => {
+    if (b.rating !== a.rating) return b.rating - a.rating;
+    return b.reviewCount - a.reviewCount;
+  });
 
   return <CountryPageClient country={country} plans={plans} />;
 }

@@ -47,18 +47,15 @@ export function InsuranceCard({
 }) {
   return (
     <Card className={`relative transition-all hover:shadow-lg ${selected ? "ring-2 ring-primary shadow-lg" : ""}`}>
-      {rank <= 3 && (
-        <div className={`absolute -top-3 -left-3 flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-white ${
-          rank === 1 ? "bg-amber-500" : rank === 2 ? "bg-zinc-400" : "bg-amber-700"
-        }`}>
-          #{rank}
-        </div>
-      )}
-
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between gap-4">
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 mb-1">
+              <span className={`inline-flex h-7 min-w-7 items-center justify-center rounded-full px-1.5 text-xs font-bold text-white shrink-0 ${
+                rank === 1 ? "bg-amber-500" : rank === 2 ? "bg-zinc-400" : rank === 3 ? "bg-amber-700" : rank <= 10 ? "bg-blue-600" : "bg-zinc-500"
+              }`}>
+                #{rank}
+              </span>
               <h3 className="text-lg font-semibold truncate">{plan.name}</h3>
             </div>
             <p className="text-sm text-muted-foreground">{plan.provider}</p>

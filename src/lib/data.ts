@@ -6,13 +6,7 @@ import { plansAmericas } from "./plans-americas";
 import { plansMiddleEast } from "./plans-middle-east";
 import { plansAfrica } from "./plans-africa";
 import { plansOceania } from "./plans-oceania";
-
-// Original 12-country plans (US, UK, DE, AE, SG, CA, AU, FR, JP, BR, ZA, IN)
 import { originalPlans } from "./plans-original";
-import { supplementalPlans1 } from "./plans-supplemental-1";
-import { supplementalPlans2 } from "./plans-supplemental-2";
-import { supplementalPlans3 } from "./plans-supplemental-3";
-import { supplementalPlans4 } from "./plans-supplemental-4";
 
 export const countries: Country[] = allCountries;
 
@@ -24,10 +18,6 @@ export const insurancePlans: InsurancePlan[] = [
   ...plansMiddleEast,
   ...plansAfrica,
   ...plansOceania,
-  ...supplementalPlans1,
-  ...supplementalPlans2,
-  ...supplementalPlans3,
-  ...supplementalPlans4,
 ];
 
 export function getCountries(): Country[] {
